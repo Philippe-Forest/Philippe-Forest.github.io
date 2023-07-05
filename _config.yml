@@ -1,11 +1,11 @@
-title: John Doe # your name (or website title) here
+title: Philippe Forest # your name (or website title) here
 logo: "/images/test.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Data visualization, analytics and analysis 
   <br><br>
-  Second description 
+  The projects presented on this page range from Deep learning to Data visualization, using many different methods in domains as diverse as text recognition, intellectual rights protection, video captioning or music features analysis
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/philippe-forest/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
