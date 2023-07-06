@@ -2,13 +2,13 @@
 
 ---
 
-### Category Name 1 
-
-[Spotify charts](/sample_page)
+### Spotify trend analysis
 
 Analysis of the musical components of top-50 charts all over the world since 2014.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Twitter-white?logo=Twitter)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#)
+
+[View project](/sample_page.md)
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
