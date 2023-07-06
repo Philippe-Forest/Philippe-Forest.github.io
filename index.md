@@ -1,10 +1,15 @@
-## Portfolio
+## Selected projects in Data Science, Deep learning, Data vizualisation and Data analysis
 
 ---
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Spotify charts](/sample_page)
+
+Analysis of the musical components of top-50 charts all over the world since 2014.
+
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Twitter-white?logo=Twitter)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#)
+
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
