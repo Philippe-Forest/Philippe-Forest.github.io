@@ -23,25 +23,6 @@
   outline-offset: var(--g);
 }
 
-.generik {
-  --s: 300px;   /* the size of the image */
-  --b: 10px;     /* the border thickness*/
-  --g: 12px;    /* the gap */
-  --c: #000000; /* the color */
-  
-  width: var(--s);
-  aspect-ratio: 1;
-  outline: calc(var(--s)/2) solid #0009;
-  outline-offset: calc(var(--s)/-2);
-  cursor: pointer;
-  transition: 0.4s;
-  
-}
-.generik:hover {
-  outline: var(--b) solid var(--c);
-  outline-offset: var(--g);
-}
-
 
 .gallery {
   --g: 8px; /* the gap */
@@ -72,4 +53,76 @@
   --_p: calc(-50% - var(--g));
 }
 
+.wrapper {
+  position: relative;
+  height: 300px;
+  width: 600px;
+  margin: 50px 0;
+  
+  display: flex;
+  flex-direction: row;
+  
+  transition: all 200ms ease-in-out;
+}
+
+.image-wrapper {
+  height: 300px;
+  width: 450px;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: all 200ms ease-in-out;
+}
+
+img {
+  height: 300px;
+  width: 450px;
+  object-fit: cover;
+  object-position: top;
+  
+  transition: all 200ms ease-in-out;
+}
+
+.book-design-image {
+  object-position: center;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  left: 380px;
+  transition: all 200ms ease-in-out;
+  overflow: hidden;
+  
+}
+
+h1 {
+  position: relative;
+  bottom: 0;
+  height: 300px;
+  color: #fff;
+  font-size: 80px;
+  font-family: Oswald;
+  text-transform: uppercase;
+  
+  transition: all 200ms ease-in-out;
+}
+
+.wrapper:hover img {
+  transform: scale(2);
+  /*object-position: bottom;*/
+}
+
+.wrapper:hover h1 {
+  bottom: 300px;
+  transform: scale(.4);
+}
+
+.wrapper:hover .image-wrapper {
+  width: 800px;
+}
 
