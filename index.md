@@ -6,11 +6,11 @@
 
 Analysis of the musical components of top-50 charts all over the world since 2014.
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Twitter-white?logo=Twitter)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#)
+[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](#)
 
 [View project](/spotify_page.md)
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Spotify-charts.png?raw=true"/>
 
 ---
 ### Movie credit extractor and descriptor
