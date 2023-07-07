@@ -49,7 +49,7 @@
 }
 */
 
-img {
+.spotify {
   --s: 250px;   /* the size of the image */
   --b: 8px;     /* the border thickness*/
   --g: 14px;    /* the gap */
@@ -62,12 +62,12 @@ img {
   cursor: pointer;
   transition: 0.3s;
 }
-img:hover {
+.spotify:hover {
   outline: var(--b) solid var(--c);
   outline-offset: var(--g);
 }
 
-img + img {
+.spotify + .spotify {
   border-radius: 50%;
 }
 
