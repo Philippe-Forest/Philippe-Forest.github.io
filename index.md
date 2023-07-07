@@ -4,7 +4,7 @@
   <p class="titletext" >Selection of projects in </p>
   <div class="animation">
     <div class="first"><div>Deep Learning</div></div>
-    <div class="second"><div>Analytics</div></div>
+    <div class="second"><div>Data Analytics</div></div>
     <div class="third"><div>DataViz</div></div>
   </div>
 </div>
