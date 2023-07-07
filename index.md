@@ -28,7 +28,14 @@ As part of an effort by the French National Library to digitize its audiovisual 
 
 Implementation of a state-of-the-art algorithm using GANs and cryptography to embedd a secret watermark in the weight repartition of a CNN.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<div class="wrapper">
+  <div class="image-wrapper">
+  <img src="images/neuralnetwork.jpg?raw=true" /></div>
+  <div class="header-wrapper">
+    <h1>CNN watermarking</h1>
+    <h1>Protection of intellectual property</h1>
+  </div>
+</div>
 
 ---
 
