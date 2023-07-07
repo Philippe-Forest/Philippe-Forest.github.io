@@ -61,12 +61,11 @@
   outline-offset: calc(var(--s)/-2);
   cursor: pointer;
   transition: 0.4s;
+  border-radius: 50%;
+  
 }
 .spotify:hover {
   outline: var(--b) solid var(--c);
   outline-offset: var(--g);
 }
 
-.spotify + .spotify {
-  border-radius: 50%;
-}
