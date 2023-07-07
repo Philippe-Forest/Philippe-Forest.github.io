@@ -1,4 +1,11 @@
-## Selected projects in Data Science, Deep learning, Data vizualisation and Data analysis
+<div class="container">
+  <p>Selection of projects in </p>
+  <div class="animation">
+    <div class="first"><div>Deep Learning</div></div>
+    <div class="second"><div>Data Analytics</div></div>
+    <div class="third"><div>Data Visualization</div></div>
+  </div>
+</div>
 
 ---
 
