@@ -77,7 +77,7 @@ body {
 
 .animation {
   height:100px;
-  
+  overflow:hidden;
   margin-left: 1rem;
 }
 
@@ -107,8 +107,8 @@ body {
   10% {margin-top: 0;}
   20% {margin-top: -5.62rem;}
   30% {margin-top: -5.62rem;}
-  40% {margin-top: -21.24rem;}
-  60% {margin-top: -21.24rem;}
+  40% {margin-top: -15.24rem;}
+  60% {margin-top: -15.24rem;}
   70% {margin-top: -5.62rem;}
   80% {margin-top: -5.62rem;}
   90% {margin-top: 0;}
