@@ -10,7 +10,7 @@ Analysis of the musical components of top-50 charts all over the world since 201
 
 [View project](/spotify_page.md)
 <div class="example">
-    <img src="images/Spotify-charts.png?raw=true" alt="tree"/>
+    <img src="images/Spotify-charts.png?raw=true" alt="spotify" class="spotify"/>
     <div class="content">
         <div class="text">Analysis of the musical components of top-50 charts all over the world since 2014.</div>
     </div>
