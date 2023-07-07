@@ -3,52 +3,6 @@
 
 @import "{{ site.theme }}";
 
-/*
-.example {
-  position: relative;
-  padding: 0;
-  width: 300px;
-  display: block;
-  cursor: pointer;
-  overflow: hidden;
-}
-
-.content {
-  opacity: 0;
-  font-size: 25px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: #FDFFFC;
-  background-color: rgba(8, 127, 140, 0.9);
-  width: 300px;
-  height: 300px;
-  -webkit-transition: all 400ms ease-out;
-  -moz-transition: all 400ms ease-out;
-  -o-transition: all 400ms ease-out;
-  -ms-transition: all 400ms ease-out;
-  transition: all 400ms ease-out;
-  text-align: center;
-}
-
-.example .content:hover {
-  opacity: 1;
-}
-
-.example .content .text {
-  height: 0;
-  opacity: 1;
-  transition-delay: 0s;
-  transition-duration: 0.4s;
-}
-
-.example .content:hover .text {
-  opacity: 1;
-  transform: translateY(30px);
-  -webkit-transform: translateY(30px);
-}
-*/
-
 .spotify {
   --s: 300px;   /* the size of the image */
   --b: 10px;     /* the border thickness*/
@@ -69,6 +23,26 @@
   outline-offset: var(--g);
 }
 
+.generik {
+  --s: 300px;   /* the size of the image */
+  --b: 10px;     /* the border thickness*/
+  --g: 12px;    /* the gap */
+  --c: #000000; /* the color */
+  
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid #0009;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.4s;
+  
+}
+.generik:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+
 .gallery {
   --g: 8px; /* the gap */
   
@@ -78,7 +52,7 @@
 .gallery > img {
   --_p: calc(-1*var(--g));
   grid-area: 1/1;
-  width: 350px; /* control the size */
+  width: 300px; /* control the size */
   aspect-ratio: 1;
   cursor: pointer;
   transition: .4s .1s;
