@@ -5,7 +5,7 @@
   <div class="animation">
     <div class="first"><div>Deep Learning</div></div>
     <div class="second"><div>Data Analytics</div></div>
-    <div class="third"><div>DataViz</div></div>
+    <div class="third"><div>Data Visualization</div></div>
   </div>
 </div>
 ---
