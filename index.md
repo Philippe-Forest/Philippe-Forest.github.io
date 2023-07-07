@@ -21,6 +21,7 @@ Analysis of the musical components of top-50 charts all over the world since 201
     </div>
 </div>
 ---
+
 ### Movie credit extractor and descriptor
 
 As part of an effort by the French National Library to digitize its audiovisual content, I was asked to build a prototype capable of automatically segmenting a film's credits and extracting the information in an orderly fashion.
