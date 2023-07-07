@@ -75,7 +75,7 @@
   transition: all 200ms ease-in-out;
 }
 
-img {
+.wmimg {
   height: 300px;
   width: 450px;
   object-fit: cover;
@@ -100,7 +100,7 @@ img {
   
 }
 
-h1 {
+.wmh1 {
   position: relative;
   bottom: 0;
   height: 300px;
@@ -112,12 +112,12 @@ h1 {
   transition: all 200ms ease-in-out;
 }
 
-.wrapper:hover img {
+.wrapper:hover .wmimg {
   transform: scale(2);
   /*object-position: bottom;*/
 }
 
-.wrapper:hover h1 {
+.wrapper:hover .wmh1 {
   bottom: 300px;
   transform: scale(.4);
 }
