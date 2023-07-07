@@ -85,13 +85,15 @@ body {
   padding: 0.25rem 0.75rem;
   height:5.62rem;
   margin-bottom: 5.62rem;
-  display:inline;
+  display:inline-block;
 }
 
 .animation div:first-child {
   animation: text-animation 8s infinite;
 }
-
+.animation div:second-child {
+  animation: text-animation 8s infinite;
+}
 .first div {
   background-color:#20a7d8;
 }
