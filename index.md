@@ -24,7 +24,8 @@ As part of an effort by the French National Library to digitize its audiovisual 
 
 [View project](/BNF.md)
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/>
+
 
 ---
 ### Watermark embedding in deep convolutional neural network
