@@ -1,3 +1,5 @@
+
+---
 <div class="container">
   <p class="titletext" >Selection of projects in </p>
   <div class="animation">
@@ -6,7 +8,6 @@
     <div class="third"><div>DataViz</div></div>
   </div>
 </div>
-
 ---
 
 ### Spotify trend analysis
