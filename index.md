@@ -12,7 +12,7 @@ Analysis of the musical components of top-50 charts all over the world since 201
 <div class="example">
     <img src="images/Spotify-charts.png?raw=true" alt="tree"/>
     <div class="content">
-        <div class="text">Tree</div>
+        <div class="text">Analysis of the musical components of top-50 charts all over the world since 2014.</div>
     </div>
 </div>
 ---
