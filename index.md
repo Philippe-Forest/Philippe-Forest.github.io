@@ -9,12 +9,12 @@ Analysis of the musical components of top-50 charts all over the world since 201
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](#)
 
 [View project](/spotify_page.md)
-
-<img src="images/Spotify-charts.png?raw=true"/>
-<div class="content">
-    <div class="text">Tree</div>
-  </div>
-  
+<div class="example">
+    <img src="images/Spotify-charts.png?raw=true"/>
+    <div class="content">
+        <div class="text">Tree</div>
+    </div>
+</div>
 ---
 ### Movie credit extractor and descriptor
 
