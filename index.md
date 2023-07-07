@@ -10,14 +10,14 @@
 </div>
 ---
 
-
+<br>
 <div class="example">
     <img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/>
     <div class="content">
-        <div class="text">test</div>
     </div>
 </div>
 <br>
+
 ---
 
 ### Movie credit extractor and descriptor
