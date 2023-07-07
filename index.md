@@ -10,16 +10,14 @@
 </div>
 ---
 
-### Spotify trend analysis
-
-Analysis of the musical components of top-50 charts all over the world since 2014.
 
 <div class="example">
     <img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/>
     <div class="content">
-        <div class="text">Analysis of the musical components of top-50 charts all over the world since 2014.</div>
+        <div class="text">test</div>
     </div>
 </div>
+<br>
 ---
 
 ### Movie credit extractor and descriptor
@@ -30,7 +28,7 @@ As part of an effort by the French National Library to digitize its audiovisual 
   <img src="images/generik.png?raw=true" alt="generique">
   <img src="images/generik2.png?raw=true" alt="generique2">
 </div>
-
+<br>
 
 ---
 ### Watermark embedding in deep convolutional neural network
