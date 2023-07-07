@@ -30,10 +30,10 @@ Implementation of a state-of-the-art algorithm using GANs and cryptography to em
 
 <div class="wrapper">
   <div class="image-wrapper">
-  <img src="images/neuralnetwork.jpg?raw=true" /></div>
+  <img src="images/neuralnetwork.jpg?raw=true" class="wmimg"/></div>
   <div class="header-wrapper">
-    <h1>CNN watermarking</h1>
-    <h1>Protection of intellectual property</h1>
+    <h1 class="wmh1">CNN watermarking</h1>
+    <h1 class="wmh1">Protection of intellectual property</h1>
   </div>
 </div>
 
