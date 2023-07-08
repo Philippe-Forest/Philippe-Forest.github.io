@@ -24,6 +24,10 @@
   outline-offset: var(--g);
 }
 
+.spotifytext {
+  display:none;
+}
+
 .spotifywrapper:hover img {
     transform: translateY(-35px);
     height: 320px;
