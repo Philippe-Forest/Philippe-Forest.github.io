@@ -54,12 +54,12 @@
 }
 
 .spotifywrapper:hover .spotifytext {
-  animation: fadeIn 2s steps(10, end); 
+  animation: fadeIn 2s; 
   animation-fill-mode: forwards;
 }
 
 .spotifywrapper:hover .BNFtext {
-  animation: fadeIn 2s steps(10, end); 
+  animation: fadeIn 2s; 
   animation-fill-mode: forwards;
 }
 
@@ -97,7 +97,7 @@
   color: white;
   font-family:'Caprasimo';
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   overflow: hidden;
   width: 0rem;
   height:14rem
