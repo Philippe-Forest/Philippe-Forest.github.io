@@ -87,6 +87,18 @@
   --_p: calc(-50% - var(--g));
 }
 
+.BNFtext {
+  opacity: 0.2;
+  color: white;
+  font-family:'Caprasimo';
+  text-align: center;
+  font-size: 1.75rem;
+  overflow: hidden;
+  width: 0rem;
+  height:14rem
+  
+}
+
 
 body {
   font-family:'Roboto';
