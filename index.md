@@ -1,7 +1,7 @@
 
 ---
 <div class="container">
-  <p class="titletext" >Selection of projects innn </p>
+  <p class="titletext" >Selection of projects in </p>
   <div class="animation">
     <div class="first"><div>Deep Learning</div></div>
     <div class="second"><div>Data Analytics</div></div>
