@@ -29,9 +29,6 @@
   color: #00C26D;
   text-align: center;
   font-size: 3rem;
-  animation: fadeIn 3s;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
   
 }
 
@@ -47,9 +44,14 @@
 }
 
 .spotifywrapper:hover img {
-  transform: translateX(-10px);
-  transition-timing-function: linear;
-    
+  transform: translateX(-40px);
+  transition-timing-function: linear;  
+}
+
+.spotifywrapper:hover .spotifytext {
+  animation: fadeIn 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .gallery {
