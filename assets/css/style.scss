@@ -126,20 +126,14 @@ body {
 
 .blur{
 transition: 1s ease;
-filter: grayscale(100%);
--webkit-filter: grayscale(100%);
--webkit-filter: blur(10px);
--webkit-transition: all 1s ease;
+filter: grayscale(100%) blur(10px);
+  
 }
 
 .blur:hover {
-
 transition: 1s ease;
-filter: grayscale(0%);
+filter: grayscale(0%) blur(0px);
 filter: gray;
--webkit-filter: grayscale(0%);
--webkit-filter: blur(0px);
-filter: none;
 }
 
 .neuralwrapper {
