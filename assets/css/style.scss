@@ -28,8 +28,14 @@
   display:none;
 }
 
+.spotifywrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .spotifywrapper:hover img {
-    transform: translateX(-35px);
+    transform: translateX(-100px);
     
 }
 .spotifywrapper:hover p {
