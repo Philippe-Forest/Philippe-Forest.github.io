@@ -5,6 +5,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 @import url('https://fonts.googleapis.com/css?family=Caprasimo:400');
 
+body {
+  font-family:'Roboto';
+  background-color: #131417;  
+}
+
 .spotify {
   --s: 250px;   /* the size of the image */
   --b: 10px;     /* the border thickness*/
@@ -42,11 +47,6 @@
     to { width: 30rem; opacity: 1;}
 }
 
-@keyframes fadeInBNF {
-    from { height: 0; opacity: 0.2;}
-    to { height: 5rem; opacity: 1;}
-}
-
 .spotifywrapper {
   display: flex;
   align-items: center;
@@ -76,14 +76,8 @@
   justify-content: center;
 }
 
-/*
-.BNFwrapper:hover img {
-  transform: translateY(-30px);
-  transition-timing-function: linear;  
-} */
-
 .BNFwrapper:hover .BNFtext {
-  animation: fadeInBNF 1.5s; 
+  animation: fadeInBNF 3s; 
   animation-fill-mode: forwards;
 }
 
@@ -117,21 +111,20 @@
 }
 
 .BNFtext {
-  opacity: 0.2;
+  opacity: 0;
   color: white;
   font-family:'Caprasimo';
   text-align: center;
   font-size: 1.0rem;
   overflow: hidden;
-  width: 20rem;
+  width: 30rem;
   height:0rem
   
 }
 
-
-body {
-  font-family:'Roboto';
-  background-color: #131417;  
+@keyframes fadeInBNF {
+    from { height: 0; opacity: 0;}
+    to { height: 3rem; opacity: 1;}
 }
 
 .titletext {
