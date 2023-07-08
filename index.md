@@ -36,7 +36,7 @@
 
 <div class="neuralwrapper">
     <img src="images/neuralnetwork.jpg?raw=true" alt="neural network" class="blur"/>
-    <p class="spotifytext">Implementation of a state-of-the-art algorithm using GANs and cryptography to embedd a secret watermark in the weight repartition of a CNN.</p>
+    <p class="neuraltext">Implementation of a state-of-the-art algorithm using GANs and cryptography to embedd a secret watermark in the weight repartition of a CNN.</p>
 </div>
 <br>
 
