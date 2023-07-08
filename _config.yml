@@ -1,8 +1,6 @@
 title: <p class="titletext">Philippe Forest </p> # your name (or website title) here
 logo: "/images/test.jpg?raw=true" # your photo (or logo) here
 description: # your text below (remove <br> elements if you don't need line breaks)
-
-  ceci est un test
   
 
 theme: jekyll-theme-minimal
