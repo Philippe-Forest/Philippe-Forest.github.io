@@ -54,7 +54,7 @@
 }
 
 .spotifywrapper:hover .spotifytext {
-  animation: fadeIn 3s ease-in-out; 
+  animation: fadeIn 3s; 
   animation-fill-mode: forwards;
 }
 
@@ -100,7 +100,7 @@
   font-size: 1.25rem;
   overflow: hidden;
   width: 0rem;
-  height:10rem
+  height:5rem
   
 }
 
