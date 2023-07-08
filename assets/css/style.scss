@@ -71,12 +71,10 @@ body {
 }
 
 .BNFwrapper:hover .BNFtext {
-  /*
+  
   animation: fadeInBNF 3s; 
   animation-fill-mode: forwards;
-  */
-  transform: scaleX(2);
-  transform: scaleY(4);
+  
 }
 
 .gallery {
