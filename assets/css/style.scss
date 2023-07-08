@@ -38,8 +38,7 @@
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from { width: 0; }
 }
 
 .spotifywrapper {
