@@ -5,6 +5,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 @import url('https://fonts.googleapis.com/css?family=Caprasimo:400');
 
+.content {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
 .spotify {
   --s: 300px;   /* the size of the image */
   --b: 10px;     /* the border thickness*/
