@@ -51,7 +51,7 @@
 }
 
 .spotifywrapper:hover .spotifytext {
-  animation: fadeIn 1s;
+  animation: fadeIn 2s steps(60, end);
   animation-fill-mode: forwards;
 }
 
