@@ -30,7 +30,7 @@
   text-align: center;
   font-size: 3rem;
   animation: fadeIn 3s;
-  animation-delay: 5s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 
@@ -49,10 +49,6 @@
   transform: translateX(-10px);
   transition-timing-function: linear;
     
-}
-.spotifywrapper:hover p {
-    display: unset;
-    transition-delay: 3s;
 }
 
 .gallery {
