@@ -37,7 +37,12 @@
   
 }
 
-@keyframes fadeIn {
+@keyframes fadeInSpotify {
+    from { width: 0; opacity: 0.2;}
+    to { width: 30rem; opacity: 1;}
+}
+
+@keyframes fadeInBNF {
     from { width: 0; opacity: 0.2;}
     to { width: 30rem; opacity: 1;}
 }
@@ -59,12 +64,29 @@
 }
 
 .spotifywrapper:hover .spotifytext {
-  animation: fadeIn 3s; 
+  animation: fadeInSpotify 3s; 
   animation-fill-mode: forwards;
 }
 
-.spotifywrapper:hover .BNFtext {
-  animation: fadeIn 3s; 
+
+.BNFwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+.BNFwrapper:hover img {
+  transform: translateX(-30px);
+  transition-timing-function: linear;  
+} */
+
+.BNFwrapper:hover .gallery {
+  transform: translateX(-30px);
+  transition-timing-function: linear;  
+}
+.BNFwrapper:hover .BNFtext {
+  animation: fadeInBNF 3s; 
   animation-fill-mode: forwards;
 }
 
