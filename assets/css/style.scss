@@ -49,12 +49,12 @@
 }
 
 .spotifywrapper:hover img {
-  transform: translateX(-30px);
+  transform: translateX(-1px);
   transition-timing-function: linear;  
 }
 
 .spotifywrapper:hover .spotifytext {
-  animation: fadeIn 4s; 
+  animation: fadeIn 4s ease-in-out; 
   animation-fill-mode: forwards;
 }
 
@@ -65,7 +65,7 @@
 
 .gallery {
   --g: 8px; /* the gap */
-  
+  width: 300px;
   display: grid;
   clip-path: inset(1px); /* to avoid visual glitchs */
 }
