@@ -35,9 +35,7 @@
 <p class="titletext" >WATERMARK EMBEDDING IN DEEP NEURAL NETWORKS</p>
 
 <div class="neuralwrapper">
-  <div class="blur">
-    <img src="images/neuralnetwork.jpg?raw=true" alt="neural network"/>
-  </div>
+    <img src="images/neuralnetwork.jpg?raw=true" alt="neural network" class="blur"/>
     <p class="spotifytext">Implementation of a state-of-the-art algorithm using GANs and cryptography to embedd a secret watermark in the weight repartition of a CNN.</p>
 </div>
 <br>
