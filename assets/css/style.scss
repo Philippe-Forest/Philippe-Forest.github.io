@@ -28,7 +28,7 @@
   display:none;
   color: #00C26D;
   text-align: left;
-  font-size: 2.70rem;
+  font-size: 3rem;
 }
 
 .spotifywrapper {
@@ -38,7 +38,8 @@
 }
 
 .spotifywrapper:hover img {
-    transform: translateX(-70px);
+  transform: translateX(-30px);
+  transition-timing-function: linear;
     
 }
 .spotifywrapper:hover p {
