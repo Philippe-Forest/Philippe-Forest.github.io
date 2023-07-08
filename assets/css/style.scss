@@ -25,10 +25,18 @@
 }
 
 .spotifytext {
-  display:none;
+  opacity: 0;
   color: #00C26D;
   text-align: center;
   font-size: 3rem;
+  animation: fadeIn 3s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 .spotifywrapper {
@@ -44,7 +52,7 @@
 }
 .spotifywrapper:hover p {
     display: unset;
-  transition-delay: 1000ms;
+    transition-delay: 3s;
 }
 
 .gallery {
