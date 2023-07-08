@@ -20,7 +20,28 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-
+        
+        <br><br>
+        
+            <ul>
+            <li>
+              <a href="#">
+                <i class="fab fa-edge"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-firefox"></i>
+              </a>
+              </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-chrome"></i>
+              </a>
+              
+            </li>
+          </ul>
+    
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
