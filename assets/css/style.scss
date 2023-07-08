@@ -31,6 +31,9 @@
   font-family:'Caprasimo';
   text-align: center;
   font-size: 3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
   
 }
 
@@ -51,8 +54,8 @@
 }
 
 .spotifywrapper:hover .spotifytext {
-  animation: fadeIn 2s; 
-  animation-fill-mode: forwards;
+  animation: fadeIn 2s steps(60, end); 
+  /*animation-fill-mode: forwards;*/
 }
 
 .gallery {
