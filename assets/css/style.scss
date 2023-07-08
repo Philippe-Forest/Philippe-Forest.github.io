@@ -113,13 +113,13 @@ body {
   text-align: center;
   font-size: 1.75rem;
   overflow: hidden;
-  width: 40rem;
-  height:3rem
+  width: 35rem;
+  height:1rem
   
 }
 
 @keyframes fadeInBNF {
-    from { height: 3; opacity: 0;}
+    from { height: 1; opacity: 0;}
     to { height: 8rem; opacity: 1;}
 }
 
@@ -158,12 +158,12 @@ filter: gray;
   font-size: 1.75rem;
   overflow: hidden;
   width: 35rem;
-  height:3rem
+  height:1rem
   
 }
 
 @keyframes fadeInNeural {
-    from { height: 3; opacity: 0;}
+    from { height: 1; opacity: 0;}
     to { height: 8rem; opacity: 1;}
 }
 
