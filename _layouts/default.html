@@ -25,27 +25,6 @@
         
         
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        <div class = "iconmenu">
-            <ul>
-            <li>
-              <a href="#">
-                <i class="fab fa-chrome"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fab fa-github"></i>
-              </a>
-              </li>
-            <li>
-              <a href="#">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              
-            </li>
-          </ul>
-        </div>
         
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
@@ -66,13 +45,52 @@
       <section>
 
       {{ content }}
+       <div class = "iconmenu">
+            <ul>
+            <li>
+              <a href="#">
+                <i class="fab fa-chrome"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-github"></i>
+              </a>
+              </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              
+            </li>
+          </ul>
+        </div>
 
       </section>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-      
+       <div class = "iconmenu">
+            <ul>
+            <li>
+              <a href="#">
+                <i class="fab fa-chrome"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-github"></i>
+              </a>
+              </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              
+            </li>
+          </ul>
+        </div>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
