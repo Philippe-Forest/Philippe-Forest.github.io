@@ -64,7 +64,7 @@
 }
 
 .spotifywrapper:hover .spotifytext {
-  animation: fadeInSpotify 3s; 
+  animation: fadeInSpotify 1.5s; 
   animation-fill-mode: forwards;
 }
 
@@ -77,7 +77,7 @@
 
 /*
 .BNFwrapper:hover img {
-  transform: translateX(-30px);
+  transform: translateY(-30px);
   transition-timing-function: linear;  
 } */
 
@@ -86,7 +86,7 @@
   transition-timing-function: linear;  
 }
 .BNFwrapper:hover .BNFtext {
-  animation: fadeInBNF 3s; 
+  animation: fadeInBNF 1.5s; 
   animation-fill-mode: forwards;
 }
 
