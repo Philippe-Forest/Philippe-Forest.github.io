@@ -35,9 +35,7 @@
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-    from { width: 0; } 
+    from { width: 0; }
 }
 
 .spotifywrapper {
@@ -53,7 +51,7 @@
 
 .spotifywrapper:hover .spotifytext {
   animation: fadeIn 2s steps(60, end);
-  animation-fill-mode: forwards;
+  /*animation-fill-mode: forwards;*/
 }
 
 .gallery {
