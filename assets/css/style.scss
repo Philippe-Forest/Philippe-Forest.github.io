@@ -43,8 +43,8 @@
 }
 
 @keyframes fadeInBNF {
-    from { width: 0; opacity: 0.2;}
-    to { width: 30rem; opacity: 1;}
+    from { height: 0; opacity: 0.2;}
+    to { height: 5rem; opacity: 1;}
 }
 
 .spotifywrapper {
@@ -82,10 +82,6 @@
   transition-timing-function: linear;  
 } */
 
-.BNFwrapper:hover .gallery {
-  transform: translateX(-30px);
-  transition-timing-function: linear;  
-}
 .BNFwrapper:hover .BNFtext {
   animation: fadeInBNF 1.5s; 
   animation-fill-mode: forwards;
@@ -127,8 +123,8 @@
   text-align: center;
   font-size: 1.0rem;
   overflow: hidden;
-  width: 0rem;
-  height:10rem
+  width: 20rem;
+  height:0rem
   
 }
 
