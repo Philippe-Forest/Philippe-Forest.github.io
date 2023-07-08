@@ -9,7 +9,7 @@
   </div>
 </div>
 ---
-
+<p class="titletext" >Spotify trend analysis</p>
 <br>
 <div class="example">
     <img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/>
@@ -20,7 +20,7 @@
 
 ---
 
-### Movie credit extractor and descriptor
+<p class="titletext" >Movie Credits Extractor </p>
 
 
 <div class="containerBNF">
