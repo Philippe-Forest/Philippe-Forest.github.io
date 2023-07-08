@@ -128,16 +128,17 @@ body {
 transition: 1s ease;
 filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
+-webkit-filter: blur(10px);
 -webkit-transition: all 1s ease;
-scale : 0.5;
 }
 
 .blur img:hover {
--webkit-filter: blur(5px);
+
 transition: 1s ease;
-  filter: grayscale(0%);
+filter: grayscale(0%);
 filter: gray;
 -webkit-filter: grayscale(0%);
+-webkit-filter: blur(0px);
 filter: none;
 }
 
