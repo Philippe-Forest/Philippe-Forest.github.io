@@ -49,7 +49,12 @@
 }
 
 .spotifywrapper:hover img {
-  transform: translateX(-1px);
+  transform: translateX(-30px);
+  transition-timing-function: linear;  
+}
+
+.spotifywrapper:hover .gallery {
+  transform: translateX(-30px);
   transition-timing-function: linear;  
 }
 
