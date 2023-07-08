@@ -22,7 +22,7 @@
 <p class="titletext" >MOVIE CREDITS EXTRACTOR</p>
 
 
-<div class="spotifywrapper">
+<div class="BNFwrapper">
   <div class="gallery">
     <img src="images/generik.png?raw=true" alt="generique">
     <img src="images/generik2.png?raw=true" alt="generique2">
