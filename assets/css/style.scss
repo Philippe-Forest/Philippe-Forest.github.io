@@ -29,9 +29,7 @@
   color: #00C26D;
   text-align: center;
   font-size: 3rem;
-  animation: fadeIn 3s;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
+  
 }
 
 @keyframes fadeIn {
@@ -48,6 +46,9 @@
 .spotifywrapper:hover img {
   transform: translateX(-10px);
   transition-timing-function: linear;
+  animation: fadeIn 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
     
 }
 
