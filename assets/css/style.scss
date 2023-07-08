@@ -124,7 +124,7 @@ body {
 }
 
 
-.blur img{
+.blur{
 transition: 1s ease;
 filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
@@ -132,7 +132,7 @@ filter: grayscale(100%);
 -webkit-transition: all 1s ease;
 }
 
-.blur img:hover {
+.blur:hover {
 
 transition: 1s ease;
 filter: grayscale(0%);
