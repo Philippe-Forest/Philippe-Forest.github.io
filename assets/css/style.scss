@@ -72,8 +72,12 @@ body {
 }
 
 .BNFwrapper:hover .BNFtext {
+  /*
   animation: fadeInBNF 3s; 
   animation-fill-mode: forwards;
+  */
+  transform: scaleX(2)
+  transform: scaleY(2)
 }
 
 .gallery {
@@ -113,7 +117,7 @@ body {
   font-size: 1.75rem;
   overflow: hidden;
   width: 40rem;
-  height:0rem
+  height:3rem
   
 }
 
