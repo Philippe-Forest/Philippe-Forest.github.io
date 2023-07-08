@@ -9,12 +9,11 @@
   </div>
 </div>
 ---
-<p class="titletext" >Spotify trend analysis</p>
+<p class="titletext" >SPOTIFY TREND ANALYSIS</p>
 <br>
-<div class="example">
+<div class="spotifywrapper">
     <img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/>
-    <div class="content"> Spotify trend analysis
-    </div>
+    <div class="spotifytest">This pops out</div>
 </div>
 <br>
 
