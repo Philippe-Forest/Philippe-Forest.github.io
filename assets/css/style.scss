@@ -32,12 +32,13 @@
   text-align: center;
   font-size: 3rem;
   overflow: hidden;
-  width: 30rem;
+  width: 0rem;
   
 }
 
 @keyframes fadeIn {
     from { width: 0; }
+    to { width: 50rem; }
 }
 
 .spotifywrapper {
