@@ -13,7 +13,7 @@
 <br>
 <div class="example">
     <img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/>
-    <div class="content">
+    <div class="content"> Spotify trend analysis
     </div>
 </div>
 <br>
@@ -22,11 +22,13 @@
 
 ### Movie credit extractor and descriptor
 
-As part of an effort by the French National Library to digitize its audiovisual content, I was asked to build a prototype capable of automatically segmenting a film's credits and extracting the information in an orderly fashion.
 
-<div class="gallery">
-  <img src="images/generik.png?raw=true" alt="generique">
-  <img src="images/generik2.png?raw=true" alt="generique2">
+<div class="containerBNF">
+  <div class="gallery">
+    <img src="images/generik.png?raw=true" alt="generique">
+    <img src="images/generik2.png?raw=true" alt="generique2">
+  </div>
+  <div>Identification and extraction.</div>
 </div>
 <br>
 
