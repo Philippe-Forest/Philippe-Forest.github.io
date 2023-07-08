@@ -115,16 +115,16 @@ body {
   color: white;
   font-family:'Caprasimo';
   text-align: center;
-  font-size: 1.0rem;
+  font-size: 1.75rem;
   overflow: hidden;
-  width: 30rem;
+  width: 40rem;
   height:0rem
   
 }
 
 @keyframes fadeInBNF {
     from { height: 0; opacity: 0;}
-    to { height: 3rem; opacity: 1;}
+    to { height: 10rem; opacity: 1;}
 }
 
 .titletext {
