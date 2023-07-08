@@ -51,11 +51,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: translateX(30px);
 }
 
 .spotifywrapper:hover img {
-  transform: translateX(-30px);
-  transition-timing-function: linear;  
+  transform: translateX(-30px);  
 }
 
 .spotifywrapper:hover .spotifytext {
@@ -119,7 +119,7 @@ body {
 
 @keyframes fadeInBNF {
     from { height: 0; opacity: 0;}
-    to { height: 10rem; opacity: 1;}
+    to { height: 8rem; opacity: 1;}
 }
 
 .titletext {
