@@ -33,7 +33,7 @@
   font-size: 3rem;
   white-space: nowrap;
   overflow: hidden;
-  width: 30em;
+  width: 300em;
   
 }
 
@@ -53,7 +53,7 @@
 }
 
 .spotifywrapper:hover .spotifytext {
-  animation: fadeIn 2s steps(60, end); 
+  animation: fadeIn 2s steps(10, end); 
   /*animation-fill-mode: forwards;*/
 }
 
