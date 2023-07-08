@@ -5,10 +5,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 @import url('https://fonts.googleapis.com/css?family=Caprasimo:400');
 
-section {
+.section {
   width:900px;
   float:right;
   padding-bottom:50px;
+}
+
+.wrapper {
+  width:960px;
+  margin:0 auto;
 }
 
 .spotify {
