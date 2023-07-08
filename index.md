@@ -13,7 +13,7 @@
 <br>
 <div class="spotifywrapper">
     <img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/>
-    <div class="spotifytest">This pops out</div>
+    <p class="spotifytext">This pops out</p>
 </div>
 <br>
 
