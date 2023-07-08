@@ -31,14 +31,14 @@
   font-family:'Caprasimo';
   text-align: center;
   font-size: 3rem;
-  white-space: nowrap;
   overflow: hidden;
-  width: 300em;
+  width: 30em;
   
 }
 
 @keyframes fadeIn {
     from { width: 0; }
+    to { width: 1; }
 }
 
 .spotifywrapper {
@@ -53,7 +53,7 @@
 }
 
 .spotifywrapper:hover .spotifytext {
-  animation: fadeIn 2s steps(10, end); 
+  animation: fadeIn 2s steps(60, end); 
   /*animation-fill-mode: forwards;*/
 }
 
