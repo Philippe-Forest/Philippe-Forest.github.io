@@ -34,20 +34,15 @@
 
 <p class="titletext" >WATERMARK EMBEDDING IN DEEP NEURAL NETWORKS</p>
 
-Implementation of a state-of-the-art algorithm using GANs and cryptography to embedd a secret watermark in the weight repartition of a CNN.
-
-<div class="wrapper">
-  <div class="image-wrapper">
-  <img src="images/neuralnetwork.jpg?raw=true" class="wmimg"/></div>
-  <div class="header-wrapper">
-    <h1 class="wmh1">CNN watermarking</h1>
-    <h1 class="wmh1">Protection of intellectual property</h1>
-  </div>
+<div class="neuralwrapper">
+    <img src="images/spotify.png?raw=true" alt="neural network" class="blur"/>
+    <p class="spotifytext">Implementation of a state-of-the-art algorithm using GANs and cryptography to embedd a secret watermark in the weight repartition of a CNN.</p>
 </div>
+<br>
 
 ---
 
-### Movie descriptor
+<p class="titletext" >MOVIE DESCRIPTOR</p>
 
 In partnership with the Cinémathèque de Bretagne, we have provided a prototype that automatically interprets black and white videos from their archives and provides a brief summary, as well as a keyword description.
 
@@ -55,7 +50,7 @@ In partnership with the Cinémathèque de Bretagne, we have provided a prototype
 
 ---
 
-### Deep learning optimization
+<p class="titletext" >DEEP LEARNING OPTIMIZATION</p>
 
 Experimenting with various ways to optimize efficiency of a convolutional neural network. Final tradeoff was -0.03% accuracy for -99.7% model size.
 
