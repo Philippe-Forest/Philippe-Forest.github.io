@@ -58,16 +58,11 @@ body {
   transition-timing-function: linear;  
 }
 
-.spotifywrapper:hover .gallery {
-  transform: translateX(-30px);
-  transition-timing-function: linear;  
-}
-
 .spotifywrapper:hover .spotifytext {
   animation: fadeInSpotify 1.5s; 
   animation-fill-mode: forwards;
+  animation-direction: reverse;
 }
-
 
 .BNFwrapper {
   display: flex;
