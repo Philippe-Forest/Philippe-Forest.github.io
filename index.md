@@ -10,7 +10,6 @@
 </div>
 ---
 <p class="titletext" >SPOTIFY TREND VISUALIZATION</p>
-<br>
 <div class="spotifywrapper">
     <img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/>
     <p class="spotifytext">Evolution of musical characteristics worldwide over the year</p>
@@ -20,7 +19,6 @@
 ---
 
 <p class="titletext" >MOVIE CREDITS EXTRACTOR</p>
-
 
 <div class="BNFwrapper">
   <div class="gallery">
