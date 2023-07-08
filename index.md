@@ -13,7 +13,7 @@
 <br>
 <div class="spotifywrapper">
     <img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/>
-    <p class="spotifytext">INCREDIBLE <br><br> AMAZING</p>
+    <p class="spotifytext">Data vizualisation project on spotify data very pretty ma gueule</p>
 </div>
 <br>
 
