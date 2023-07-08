@@ -9,11 +9,11 @@
   </div>
 </div>
 ---
-<p class="titletext" >SPOTIFY TREND ANALYSIS</p>
+<p class="titletext" >SPOTIFY TREND VISUALIZATION</p>
 <br>
 <div class="spotifywrapper">
     <img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/>
-    <p class="spotifytext">Vizualisation of musical characteristics worldwide over the year</p>
+    <p class="spotifytext">Evolution of musical characteristics worldwide over the year</p>
 </div>
 <br>
 
