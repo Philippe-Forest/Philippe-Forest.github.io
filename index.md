@@ -12,7 +12,7 @@
 <p class="titletext" >SPOTIFY TREND VISUALIZATION</p>
 
 <div class="spotifywrapper">
-    <a href="./spotify_page"><img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/></a>
+    <a href="./spotify"><img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/></a>
     <p class="spotifytext">Evolution of musical characteristics worldwide over the year.</p>
 </div>
 <br>
@@ -35,7 +35,7 @@
 <p class="titletext" >WATERMARK EMBEDDING IN DEEP NEURAL NETWORKS</p>
 
 <div class="neuralwrapper">
-    <a href="./watermark_page"><img src="images/neuralnetwork.jpg?raw=true" alt="neural network" class="blur"/></a>
+    <a href="./watermark"><img src="images/neuralnetwork.jpg?raw=true" alt="neural network" class="blur"/></a>
     <p class="neuraltext">Implementation of a state-of-the-art algorithm using GANs and cryptography to embedd a secret watermark in the weight repartition of a CNN.</p>
 </div>
 <br>
@@ -56,7 +56,7 @@
 <p class="titletext" >DEEP LEARNING OPTIMIZATION</p>
 
 <div class="optiwrapper">
-    <a href="./opti_page"><img src="images/opti.jpg?raw=true" alt="optimization" class="opti"/></a>
+    <a href="./optimization"><img src="images/opti.jpg?raw=true" alt="optimization" class="opti"/></a>
     <p class="optitext">Experimenting with various ways to optimize efficiency of a convolutional neural network. Final tradeoff was -0.03% accuracy for -99.7% model size.</p>
 </div>
 
