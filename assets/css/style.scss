@@ -182,6 +182,35 @@ filter: gray;
   filter: grayscale(0);
 }
 
+.cinemathequetext {
+  opacity: 0;
+  color: white;
+  font-family:'Raleway';
+  text-align: center;
+  font-size: 1.75rem;
+  overflow: hidden;
+  width: 35rem;
+  height:1rem
+  
+}
+
+@keyframes fadeInCinematheque {
+    from { heigth: 1; opacity: 0; transform: translate(0px, 0px);}
+    to { height: 15rem; opacity: 1; transform: translate(0, 30px);}
+}
+
+.cinemathequewrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cinemathequewrapper:hover .cinemathequetext {
+  animation: fadeInCinematheque 2s; 
+  animation-fill-mode: forwards;
+}
+
 .titletext {
   text-shadow: 0 0 9px rgba(255,255,255,.4), 0 0 5px rgba(255,255,255,.4);
   color: white;
