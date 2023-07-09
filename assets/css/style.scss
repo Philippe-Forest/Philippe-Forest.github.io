@@ -164,6 +164,24 @@ filter: gray;
     to { height: 10rem; opacity: 1; transform: translate(0, 30px);}
 }
 
+.cinematheque {
+  --m:
+    radial-gradient(circle farthest-side at right,#000 99%,#0000) 
+      0 100%/46% 92% no-repeat,
+    radial-gradient(circle farthest-side at left ,#000 99%,#0000) 
+      100% 0/46% 92% no-repeat;
+  -webkit-mask: var(--m);
+          mask: var(--m);
+  filter: grayscale(.5);
+  transition: .3s linear;
+  cursor: pointer;
+}
+.cinematheque:hover {
+  -webkit-mask-position: 7.5% 50%,92.5% 50%;
+          mask-position: 7.5% 50%,92.5% 50%;
+  filter: grayscale(0);
+}
+
 .titletext {
   text-shadow: 0 0 9px rgba(255,255,255,.4), 0 0 5px rgba(255,255,255,.4);
   color: white;
