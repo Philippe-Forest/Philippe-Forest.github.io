@@ -45,7 +45,7 @@
 <p class="titletext" >MOVIE DESCRIPTOR</p>
 
 <div class="cinemathequewrapper">
-    <img src="images/cinematheque.jpg?raw=true" alt="neural network" class="cinematheque"/>
+    <img src="images/cinematheque.jpg?raw=true" alt="cinematheque" class="cinematheque"/>
     <p class="cinemathequetext">In partnership with the Cinémathèque de Bretagne, we have provided a prototype that automatically interprets videos from their archives and provides a brief summary, as well as a keyword description.</p>
 </div>
 <br>
@@ -55,10 +55,11 @@
 
 <p class="titletext" >DEEP LEARNING OPTIMIZATION</p>
 
-Experimenting with various ways to optimize efficiency of a convolutional neural network. Final tradeoff was -0.03% accuracy for -99.7% model size.
-
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<div class="optiwrapper">
+    <img src="images/cinematheque.jpg?raw=true" alt="optimization" class="opti"/>
+    <p class="optitext">Experimenting with various ways to optimize efficiency of a convolutional neural network. Final tradeoff was -0.03% accuracy for -99.7% model size.</p>
+</div>
+<br>
 
 ---
 
