@@ -85,6 +85,7 @@ body {
   --_p: calc(-1*var(--g));
   grid-area: 1/1;
   width: 380px; /* control the size */
+  border-radius: 50%;
   aspect-ratio: 1;
   cursor: pointer;
   transition: .4s .1s;
