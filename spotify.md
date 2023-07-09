@@ -5,7 +5,7 @@
 
 ---
 
-<p class="articletext"> This project was realised along with 3 other students of IMT Atlantique : <a href="https://www.linkedin.com/in/martin-rouesn%C3%A9-81a489182/">Martin Rouesné</a>, <a href="https://www.linkedin.com/in/camillefrancoismartin/">Camille François-Martin</a> and <a href="https://www.linkedin.com/in/guyllian-gomez/">Guyllian Gomez</a></p>
+<p class="articletext"> This project was realised along with 3 other students of IMT Atlantique : <a href="https://www.linkedin.com/in/martin-rouesn%C3%A9-81a489182/" class="linkedinlink">Martin Rouesné</a>, <a href="https://www.linkedin.com/in/camillefrancoismartin/" class="linkedinlink">Camille François-Martin</a> and <a href="https://www.linkedin.com/in/guyllian-gomez/" class="linkedinlink">Guyllian Gomez</a></p>
 
 ---
 
