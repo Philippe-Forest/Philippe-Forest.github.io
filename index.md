@@ -59,6 +59,7 @@
     <img src="images/opti.jpg?raw=true" alt="optimization" class="opti"/>
     <p class="optitext">Experimenting with various ways to optimize efficiency of a convolutional neural network. Final tradeoff was -0.03% accuracy for -99.7% model size.</p>
 </div>
+
 <br>
 
 ---
