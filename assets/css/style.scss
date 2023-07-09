@@ -242,13 +242,14 @@ filter: gray;
 }
 
 .opti {
-  border-radius: 70%;
-  
+  border-radius: 50%;
+  scale: 0.7;
+  transform: rotate(180deg);
 }
 
 
 .opti:hover {
-  transition: 1s ease;
+  transition: 2s ease;
   transform: rotate(180deg);
 }
 
