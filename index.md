@@ -13,7 +13,7 @@
 
 <div class="spotifywrapper">
     <img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/>
-    <p class="spotifytext">Evolution of musical characteristics worldwide over the year</p>
+    <p class="spotifytext">Evolution of musical characteristics worldwide over the year.</p>
 </div>
 <br>
 
@@ -26,7 +26,7 @@
     <img src="images/generik.png?raw=true" alt="generique">
     <img src="images/generik2.png?raw=true" alt="generique2">
   </div>
-   <p class="BNFtext">Segmentation, extraction and interpretation of movie credits from the French National Library database</p>
+   <p class="BNFtext">Segmentation, extraction and interpretation of movie credits from the French National Library database.</p>
 </div>
 <br>
 
