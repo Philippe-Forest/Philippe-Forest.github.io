@@ -44,9 +44,9 @@
 
 <p class="titletext" >MOVIE DESCRIPTOR</p>
 
-<div class="neuralwrapper">
-    <img src="images/neuralnetwork.jpg?raw=true" alt="neural network" class="blur"/>
-    <p class="neuraltext">In partnership with the Cinémathèque de Bretagne, we have provided a prototype that automatically interprets videos from their archives and provides a brief summary, as well as a keyword description.</p>
+<div class="cinemathequewrapper">
+    <img src="images/cinematheque.jpg?raw=true" alt="neural network" class="cinematheque"/>
+    <p class="cinemathequetext">In partnership with the Cinémathèque de Bretagne, we have provided a prototype that automatically interprets videos from their archives and provides a brief summary, as well as a keyword description.</p>
 </div>
 <br>
 
