@@ -12,7 +12,7 @@ body {
 }
 
 .spotify {
-  --s: 250px;   /* the size of the image */
+  --s: 300px;   /* the size of the image */
   --b: 10px;     /* the border thickness*/
   --g: 12px;    /* the gap */
   --c: #1DB954; /* the color */
@@ -76,7 +76,7 @@ body {
 
 .gallery {
   --g: 8px; /* the gap */
-  width: 300px;
+  width: 400px;
   display: grid;
   clip-path: inset(1px); /* to avoid visual glitchs */
 }
