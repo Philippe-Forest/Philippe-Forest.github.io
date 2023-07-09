@@ -176,13 +176,13 @@ filter: gray;
   filter: grayscale(.5);
   transition: .3s linear;
   cursor: pointer;
-  transition: transform 1s;
+  transition: transform 3s;
 }
 .cinematheque:hover {
   -webkit-mask-position: 7.5% 50%,92.5% 50%;
           mask-position: 7.5% 50%,92.5% 50%;
   filter: grayscale(0);
-  transform: rotate(1080deg);
+  transform: rotate(360deg);
 }
 
 .cinemathequetext {
