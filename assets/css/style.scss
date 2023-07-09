@@ -165,7 +165,8 @@ filter: gray;
 }
 
 .cinematheque {
-  scale: 0.8;
+  width: 300px;
+  aspect-ratio: 1;
   --m:
     radial-gradient(circle farthest-side at right,#000 99%,#0000) 
       0 100%/46% 92% no-repeat,
