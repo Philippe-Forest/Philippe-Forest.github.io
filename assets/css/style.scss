@@ -188,7 +188,7 @@ filter: gray;
   color: white;
   font-family:'Raleway';
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   overflow: hidden;
   width: 35rem;
   height:1rem
@@ -196,8 +196,8 @@ filter: gray;
 }
 
 @keyframes fadeInCinematheque {
-    from { heigth: 1; opacity: 0; transform: translate(0px, 0px);}
-    to { height: 15rem; opacity: 1; transform: translate(0, 30px);}
+    from { heigth: 1; opacity: 1; transform: translate(0px, 0px);}
+    to { height: 12rem; opacity: 1; transform: translate(0, 30px);}
 }
 
 .cinemathequewrapper {
