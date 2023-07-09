@@ -44,9 +44,12 @@
 
 <p class="titletext" >MOVIE DESCRIPTOR</p>
 
-In partnership with the Cinémathèque de Bretagne, we have provided a prototype that automatically interprets black and white videos from their archives and provides a brief summary, as well as a keyword description.
+<div class="neuralwrapper">
+    <img src="images/neuralnetwork.jpg?raw=true" alt="neural network" class="blur"/>
+    <p class="neuraltext">In partnership with the Cinémathèque de Bretagne, we have provided a prototype that automatically interprets videos from their archives and provides a brief summary, as well as a keyword description.</p>
+</div>
+<br>
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
