@@ -37,29 +37,25 @@ body {
   text-align: center;
   font-size: 1.75rem;
   overflow: hidden;
-  width: 0rem;
-  height:14rem
+  width: 35rem;
+  height:1rem
   
 }
 
 @keyframes fadeInSpotify {
-    from { width: 0; opacity: 0.2;}
-    to { width: 30rem; opacity: 1;}
+    from { heigth: 1; opacity: 0.2;}
+    to { height: 8rem; opacity: 1;}
 }
 
 .spotifywrapper {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
-  transform: translateX(30px);
-}
-
-.spotifywrapper:hover img {
-  transform: translateX(-30px);  
 }
 
 .spotifywrapper:hover .spotifytext {
-  animation: fadeInSpotify 1.5s; 
+  animation: fadeInSpotify 2s; 
   animation-fill-mode: forwards;
 }
 
@@ -72,7 +68,7 @@ body {
 
 .BNFwrapper:hover .BNFtext {
   
-  animation: fadeInBNF 3s; 
+  animation: fadeInBNF 2s; 
   animation-fill-mode: forwards;
   
 }
@@ -145,7 +141,7 @@ filter: gray;
 
 .neuralwrapper:hover .neuraltext {
   
-  animation: fadeInNeural 3s; 
+  animation: fadeInNeural 2s; 
   animation-fill-mode: forwards;
   
 }
