@@ -212,6 +212,35 @@ filter: gray;
   animation-fill-mode: forwards;
 }
 
+.optitext {
+  opacity: 0;
+  color: white;
+  font-family:'Raleway';
+  text-align: center;
+  font-size: 1.75rem;
+  overflow: hidden;
+  width: 35rem;
+  height:1rem
+  
+}
+
+@keyframes fadeInOpti {
+    from { heigth: 1; opacity: 0; transform: translate(0px, 0px);}
+    to { height: 8rem; opacity: 1; transform: translate(0, 30px);}
+}
+
+.optiwrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.optiwrapper:hover .optitext {
+  animation: fadeInOpti 2s; 
+  animation-fill-mode: forwards;
+}
+
 .titletext {
   text-shadow: 0 0 9px rgba(255,255,255,.4), 0 0 5px rgba(255,255,255,.4);
   color: white;
