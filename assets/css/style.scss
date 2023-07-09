@@ -246,12 +246,11 @@ filter: gray;
   border-radius: 50%;
   width: 300px;
   aspect-ratio: 1;
-  transform: rotate(180deg);
+  transition: transform 1.5s ease-in-out;
 }
 
 
 .opti:hover {
-  transition: 2s ease;
   transform: rotate(180deg);
 }
 
