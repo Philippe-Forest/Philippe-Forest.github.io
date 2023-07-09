@@ -98,11 +98,11 @@ body {
 }
 .gallery:hover > img:last-child,
 .gallery:hover > img:first-child:hover{
-  --_p: calc(30% - var(--g));
+  --_p: calc(40% - var(--g));
 }
 .gallery:hover > img:first-child,
 .gallery:hover > img:first-child:hover + img{
-  --_p: calc(-30% - var(--g));
+  --_p: calc(-40% - var(--g));
 }
 
 .BNFtext {
