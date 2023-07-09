@@ -75,8 +75,8 @@ body {
 }
 
 .gallery {
-  --g: 8px; /* the gap */
-  width: 380px;
+  --g: 5px; /* the gap */
+  width: 300px;
   border-radius: 50%;
   display: grid;
   clip-path: inset(1px); /* to avoid visual glitchs */
@@ -84,7 +84,7 @@ body {
 .gallery > img {
   --_p: calc(-1*var(--g));
   grid-area: 1/1;
-  width: 380px; /* control the size */
+  width: 300px; /* control the size */
   border-radius: 50%;
   aspect-ratio: 1;
   cursor: pointer;
