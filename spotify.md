@@ -29,4 +29,4 @@
 
 <img src="images/danceability.png?raw=true" alt="danceability" class="danceability"/>
 
-<p class="articletext">For a more thorough inspection, we can calculate the correlation between each characteristic </p>
+<p class="articletext">For a more thorough inspection, we can calculate the correlation between each characteristic and the average performance of a song. We can also split the results by country and by week for maximum specificity. This gives us some nice insight that I chose to display in a circular fashion to account for the periodic nature of musical trends</p>
