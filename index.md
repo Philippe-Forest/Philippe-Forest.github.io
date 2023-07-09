@@ -12,7 +12,7 @@
 <p class="titletext" >SPOTIFY TREND VISUALIZATION</p>
 
 <div class="spotifywrapper">
-    <img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/>
+    <a href="./spotify_page.md"><img src="images/spotify.png?raw=true" alt="spotify" class="spotify"/></a>
     <p class="spotifytext">Evolution of musical characteristics worldwide over the year.</p>
 </div>
 <br>
@@ -22,10 +22,10 @@
 <p class="titletext" >MOVIE CREDITS EXTRACTOR</p>
 
 <div class="BNFwrapper">
-  <div class="gallery">
+  <a href="BNF.md"><div class="gallery">
     <img src="images/generik.png?raw=true" alt="generique">
     <img src="images/generik2.png?raw=true" alt="generique2">
-  </div>
+  </div></a>
    <p class="BNFtext">Segmentation, extraction and interpretation of movie credits from the French National Library database.</p>
 </div>
 <br>
@@ -61,8 +61,6 @@
 </div>
 
 <br>
-
----
 
 ---
 
