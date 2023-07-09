@@ -17,5 +17,14 @@
 
 ---
 
-<p class="articletext"> Our objective was ultimately to create a model capable of predicting the popularity of any given song in various countries, and at different timescale. This model could serve as tool for market analysis, to guide the promotional campaign of upcoming artists. Before building the model, I was tasked with developping visualizations to help our team better grasp the dataset, and find interesting trends and correlations. </p>
+<p class="articletext">Our objective was ultimately to create a model capable of predicting the popularity of any given song in various countries, and at different timescale. This model could serve as tool for market analysis, to guide the promotional campaign of upcoming artists. Before building the model, I was tasked with developping visualizations to help our team better grasp the dataset, and find interesting trends and correlations. </p>
 
+---
+
+<p class="articletext">We can perform a first basic analysis by checking the evolution of some characteristics over the years. For instance, the average song duration has increased over the year in some countries, like South Africa, but diminished in other, like in Japan, and has overall stayed the same worldwide</p>
+
+<img src="images/duration.png?raw=true" alt="duration" class="duration"/>
+
+<p class="articletext">Other characteristics seem to follow a periodic trend. That's the case of "danceability" in Italy and France, which always jumps in summer. </p>
+
+<img src="images/danceability.png?raw=true" alt="danceability" class="danceability"/>
