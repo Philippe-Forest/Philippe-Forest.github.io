@@ -29,6 +29,15 @@
 
 <img src="images/danceability.png?raw=true" alt="danceability" class="danceability"/>
 
-<p class="articletext">For a more thorough inspection, we can calculate the correlation between each characteristic and the average performance of a song. We can also split the results by country and by week for maximum specificity. This gives us some nice insight that I chose to display in a circular fashion to account for the periodic nature of musical trends. This powerful way of vizualising gives us immediately the broad trend over the year for a specific country. For instance, in Italy, There seem to be a surge of</p>
+<p class="articletext">For a more thorough inspection, we can calculate the correlation between each characteristic and the average performance of a song. We can also split the results by country and by week for maximum specificity. This gives us some nice insight that I chose to display in a circular fashion to account for the periodic nature of musical trends. This powerful way of vizualising gives us immediately the broad trend over the year for a specific country. For instance, in Italy, There seem to be a massive popularity "of high-valence" (aka happy) songs between the weeks 25 to 24, which corresponds roughly to summer. </p>
 
-<img src="images/danceability.png?raw=true" alt="danceability" class="danceability"/>
+<img src="images/wheel_Italy.png?raw=true" alt="wheel_Italy" class="danceability"/>
+
+<p class="articletext">Though this could be easily expected, there are still huge differences in the correlations across various countries. For instance, the Nicaraguan wheel looks widely different from the Italian one : </p>
+
+<img src="images/wheel_Nicaragua.png?raw=true" alt="wheel_Italy"/>
+
+<p class="articletext">Just for fun, let's plot every country at the same time and animate based on the current week of the year</p>
+
+<img src="images/featuresovertheyear.gif?raw=true" alt="wheel_Italy"/>
+
