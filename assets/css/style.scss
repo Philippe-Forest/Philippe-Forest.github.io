@@ -77,6 +77,7 @@ body {
 .gallery {
   --g: 8px; /* the gap */
   width: 380px;
+  border-radius: 50%;
   display: grid;
   clip-path: inset(1px); /* to avoid visual glitchs */
 }
