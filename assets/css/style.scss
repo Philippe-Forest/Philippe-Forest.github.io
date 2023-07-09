@@ -76,14 +76,14 @@ body {
 
 .gallery {
   --g: 8px; /* the gap */
-  width: 500px;
+  width: 380px;
   display: grid;
   clip-path: inset(1px); /* to avoid visual glitchs */
 }
 .gallery > img {
   --_p: calc(-1*var(--g));
   grid-area: 1/1;
-  width: 500px; /* control the size */
+  width: 380px; /* control the size */
   aspect-ratio: 1;
   cursor: pointer;
   transition: .4s .1s;
