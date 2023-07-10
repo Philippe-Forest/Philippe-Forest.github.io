@@ -9,7 +9,7 @@
 
 ---
 
-<img src="images/blackboxwhitebox.png?raw=true" alt="blackboxwhitebox"/>
+<img src="images/blackboxwhitebow.png?raw=true" alt="blackboxwhitebox"/>
 
 ---
 
