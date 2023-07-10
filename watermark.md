@@ -25,7 +25,7 @@ In practice, the way we achieve this is through a cross-entropy loss function, s
 
 ---
 
-<p class="articletext">RIGA </p>
+<p class="articletext">RIGA adress the issue of weighth distribution by cleverly drawing inspiration from GANs. To simplify a little bit, RIGA ditches the linear combinations that we mentioned earlier, and replaces them with a multi-layer perceptron whose job is to take as inputs the current model's weight, and map them to the appropriate message bit. This update is not very surprising since, as we mentioned, the problem is identical to a classification task. However, by replacing the rigid linear combinations with a flexible neural network, we can now embed not only binary messages, but pretty much anything we want! The real kicker added by RIGA is the introduction of yet another neural network, whose job is to analyse the current model's weights, and predict wheter or not these weights have been tampered with. The model in charge </p>
 
 ---
 
