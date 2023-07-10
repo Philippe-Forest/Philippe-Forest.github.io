@@ -55,5 +55,6 @@ In practice, the way we achieve this is through a cross-entropy loss function, s
 
 <p class="articletext">The difference here is obvious : with Uchida's algorithm, the more epochs we retrain with a new watermark, the more the previous watermark begins to degrade. However, with RIGA, the old matermark remains entirely recoverable even after a new watermark has been added to the weights. </p>
 
+
 ---
 
