@@ -1,4 +1,5 @@
 ---
+
 <div class="container">
   <p class="titletext" >Selection of projects in </p>
   <div class="animation">
@@ -7,7 +8,9 @@
     <div class="third"><div>Data Visualization</div></div>
   </div>
 </div>
+
 ---
+
 <p class="titletext" >SPOTIFY TREND VISUALIZATION</p>
 
 <div class="spotifywrapper">
