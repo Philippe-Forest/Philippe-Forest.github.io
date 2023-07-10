@@ -47,5 +47,10 @@ In practice, the way we achieve this is through a cross-entropy loss function, s
 <img src="images/cifar_riga_pruning.png?raw=true" alt="schemawm"/>
 <img src="images/cifar_uchida_pruning.png?raw=true" alt="schemawm"/>
 
+<p class="articletext">In both cases, the watermark only begins to degrade long after the accuracy is completely destroyed, so we can safely say that both methods are resistant to pruning, at least on this small test case. Now, for the really interesting part, I wanted to see how both models would react to an overwriting attack. Here are the results :</p>
+
+<img src="images/overwriting_cifar_riga.png?raw=true" alt="schemawm"/>
+<img src="images/overwriting_cifar_uchida.png?raw=true" alt="schemawm"/>
+
 ---
 
