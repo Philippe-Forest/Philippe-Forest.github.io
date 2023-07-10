@@ -9,6 +9,8 @@
 
 ---
 
+---
+<p class="articletext"> Lots of factor need to be taken into account when designing a watermarking scheme : among them is the robusntess criterion, which stipuulates that the watermark should be resistant to retraining of the model, pruning of the model, and overwriting (putting another watermark on the same model should not erase the previous one). Moreover, the watermarking scheme should not affect the model's accuracy. </p>
 
 ---
 
