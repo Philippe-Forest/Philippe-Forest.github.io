@@ -43,7 +43,7 @@
 
 ---
 
-<p class="articletext">Another interesting visualization we can make is performing PCA on the 10 explanatory variables, and plot each countries in the resulting latent space. This allows us to see immediately which countries are "close" to each other and which one are "far away" in their music. From this first plot, it appears that Dominican Republic, Indonesia and Japan have very diverse musical tastes.</p>
+<p class="articletext">Another interesting visualization we can make is performing PCA on the 10 explanatory variables, and plot each countries in the resulting latent space. This allows us to see immediately which countries are "close" to each other and which one are "far away" in their music. From this first plot, it appears that Dominican Republic, Indonesia and Japan have very different musical tastes.</p>
 
 <img src="images/PCAcountry.png?raw=true" alt="PCA country"/>
 
