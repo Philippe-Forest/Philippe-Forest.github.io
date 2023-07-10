@@ -53,4 +53,4 @@ In practice, the way we achieve this is through a cross-entropy loss function, s
 <img src="images/overwriting_mnist_riga.png?raw=true" alt="overwriting with riga"/>
 <img src="images/overwriting_mnist_uchida.png?raw=true" alt="overwriting with uchida"/>
 
-<p class="articletext">The difference here is obvious : with Uchida's algorithm, the more epochs we retrain with a new watermark, the more the previous watermark begins to degrade. However, with RIGA, the old matermark remains entirely recoverable even after a new watermark has been added to the weights. Therefore, RIGA adds a lot more robustness as well as being virtually impossible to detect from weight distribution alone.</p>
+<p class="articletext">The difference here is obvious : with Uchida's algorithm, the more epochs we retrain with a new watermark, the more the previous watermark begins to degrade. However, with RIGA, the old matermark remains entirely recoverable even after a new watermark has been added to the weights. Therefore, RIGA adds a lot more robustness as well as being virtually impossible to detect from weight distribution alone. </p>
