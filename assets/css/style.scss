@@ -400,3 +400,20 @@ filter: gray;
   box-shadow: inset 200px 0 0 0 #54b3d6;
 }
 
+nav ul {
+        display: flex;
+        list-style: none;
+        margin-right: 5px;
+      }
+nav ul li {
+margin-right: 10px;
+}
+nav ul li a {
+text-decoration: none;
+}
+nav ul li a:hover {
+text-decoration: underline;
+}
+.active {
+text-decoration: underline;
+}
