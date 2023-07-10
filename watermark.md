@@ -12,12 +12,15 @@
 <p class="articletext">Uchida's method works as follows : once we have our n-bit binary message to embed, we select the convolutional layer of the CNN that we would like to watermark. Then, we generate a random matrix whose elements are drawn from the normal centered distribution. This matrix will be our secret key used to embed the secret message during the training process, and will also be used in order to recover the message. To do so, Uchida's amazing idea is to add one more term to the loss function, that will act like a regularizer (think of a weight decay term, but instead of penalizing big weights, it penalizes weights distributions that don't "match" the secret message we want to embed). Of course, by now, the burning question is : how do we force a weight distribution to "match" a secret message? and what role does the secret key has to play in this? The answer is pretty simple : n linear combinations involving both the weight distribution and the secret key elements are generated. Each of these linear combinations is supposed to correspond to one of the message bit at the end of the training process. Therefore, the neural network is incited to modify its weights such that : <br>
 1) It acquires a good accuracy (that's the role of the first part of the loss function) <br>
 2) The weights involved in the n linear combinations are set to values such that the various combinations produce all of the message bits, in a precise order.<br>
-In practice, the way we achieve this is through a cross-entropy loss function, since this problem is analoguous to a binary classification, with the labels being either 0 or 1 (the bits of the message) <p>
+In practice, the way we achieve this is through a cross-entropy loss function, since this problem is analoguous to a binary classification, with the labels being either 0 or 1 (the bits of the message) </p>
 
 ---
 
-<p class="articletext">The implementation of this algorithm is pretty straightworfard, and can be found in <a href="https://colab.research.google.com/drive/1DUnfiuhqV2FR3V9jndP47zLTmsFhyNh2" class="linkedinlink">the notebook.</a> I implemented it on the CIFAR-10 and MNIST datasets, using a slighty improved version of <a href="https://en.wikipedia.org/wiki/LeNet" class="linkedinlink">LeNet.</a> I noticed a 2% decrease in accuracy on the CIFAR dataset when applying the watermarking, but I was able to successfully embed and retreive the message with a 100% recovery rate. 
+<p class="articletext">The implementation of this algorithm is pretty straightworfard, and can be found in <a href="https://colab.research.google.com/drive/1DUnfiuhqV2FR3V9jndP47zLTmsFhyNh2" class="linkedinlink">the notebook.</a> I implemented it on the CIFAR-10 and MNIST datasets, using a slighty improved version of <a href="https://en.wikipedia.org/wiki/LeNet" class="linkedinlink">LeNet.</a> I noticed a 2% decrease in accuracy on the CIFAR dataset when applying the watermarking, but I was able to successfully embed and retreive the message with a 100% recovery rate. However, upon looking at the weight distribution of the embedded layer, it is obvious that the repartition had been tampered with :</p>
 
+<img src="images/duration.png?raw=true" alt="duration"/>
+
+<p class="articletext">This breaks the principle of security, which states that the matermark should be inpossible to detect. It is one of the biggest flaws with Uchida's algorithm. Now let's try to implement RIGA in order to see if it fares better .</p>
 
 ---
 
