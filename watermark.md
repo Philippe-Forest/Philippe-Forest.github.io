@@ -10,7 +10,7 @@
 ---
 
 <img src="images/blackboxwhitebow.png?raw=true" alt="blackboxwhitebox"/>
-<p class="articletext">a) White-box scheme. b) Black-box scheme.
+<p class="articletext">a) White-box scheme. b) Black-box scheme.</p>
   
 ---
 
