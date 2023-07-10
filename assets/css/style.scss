@@ -11,6 +11,13 @@ body {
   background-color: #121315;  
 }
 
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .spotify {
   --s: 300px;   /* the size of the image */
   --b: 10px;     /* the border thickness*/
