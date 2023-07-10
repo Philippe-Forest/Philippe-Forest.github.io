@@ -41,3 +41,18 @@
 
 <img src="images/featuresovertheyear.gif?raw=true" alt="wheel_Italy"/>
 
+<p class="articletext">Even though this last animation highlights both a great diversity across countries and some variability over time, we need to keep in mind that the correlations showed here are rather weak on average, as most of them are below 0,2. This is a hint that it would be hard to produce a predictive model based solely on these explanatory variables, and indeed, our model turned out to be rather mediocre for popularity prediction.</p>
+
+---
+
+<p class="articletext">Another interesting visualization we can make is performing PCA on the 10 explanatory variables, and plot each countries in the resulting latent space. This allows us to see immediately which countries are "close" to each other and which one are "far away" in their music. From this first plot, it appears that Dominican Republic, Indonesia and Japan have very diverse musical tastes.</p>
+
+<img src="images/PCAcountry.png?raw=true" alt="PCA country"/>
+
+<p class="articletext">Let's color the points by continent :</p>
+
+<img src="images/PCAcontinents.png?raw=true" alt="PCA country"/>
+
+<p class="articletext">Interestingly, it seems like Europe has overall uniform tastes, South America has very similar tastes, which can easily be explained by the massive popularity of Raeggeton in the whole continent. Asia seems to have the most diverse musical culture overall. </p>
+
+---
