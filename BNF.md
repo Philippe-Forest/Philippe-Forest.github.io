@@ -12,8 +12,10 @@
 
 ---
 
-<p class="articletext">Segmenting the movie credits was the first part of the job. My first idea was to first build a model capable of detecting whether or not a specific frame was part of a credit scene or not. Then, I would just have to select a frame from the movie every so and so, and decide that the credits have begun to roll when a few consecutive frames were identified as belonging to a credit scene. After a little bit of research, I found pre-trained models that could fullfill this purpose, such as <a href="https://github.com/parallel-places/closing-credits-recognizer" class="linkedinlink">this one</a> or <a href="https://github.com/nielstenboom/recurring-content-detector" class="linkedinlink">that one</a>. After a few test on actual videos from the BnF collection, I noticed that such models were pretty efficient to detect the credit sequences when they looked like black screen with white next appearing on it, but failed completely whenever the credit scene was anything else. I can't diffuse images of the actual credit scenes 
-</p>
+<p class="articletext">Segmenting the movie credits was the first part of the job. My first idea was to first build a model capable of detecting whether or not a specific frame was part of a credit scene or not. Then, I would just have to select a frame from the movie every so and so, and decide that the credits have begun to roll when a few consecutive frames were identified as belonging to a credit scene. After a little bit of research, I found pre-trained models that could fullfill this purpose, such as <a href="https://github.com/parallel-places/closing-credits-recognizer" class="linkedinlink">this one</a> or <a href="https://github.com/nielstenboom/recurring-content-detector" class="linkedinlink">that one</a>. After a few test on actual videos from the BnF collection, I noticed that such models were pretty efficient to detect the credit sequences when they looked like black screen with white next appearing on it, but failed completely whenever the credit scene was anything else. As it turns out, many of the BnF's movie have ending sequences that completely differs from this stereotypical design. See the following picture for an idea of what I had to deal with :</p>
+
+<img src="images/uchida_mnist.png?raw=true" alt="uchida watermark mnist"/>
+
   
 ---
 
@@ -24,12 +26,6 @@ In practice, the way we achieve this is through a cross-entropy loss function, s
 
 ---
 
-<p class="articletext">The implementation of this algorithm is pretty straightworfard, and can be found in <a href="https://colab.research.google.com/drive/1DUnfiuhqV2FR3V9jndP47zLTmsFhyNh2" class="linkedinlink">the notebook.</a> I implemented it on the CIFAR-10 and MNIST datasets, using a slighty improved version of <a href="https://en.wikipedia.org/wiki/LeNet" class="linkedinlink">LeNet.</a> I noticed a 2% decrease in accuracy on the CIFAR dataset when applying the watermarking, but I was able to successfully embed and retreive the message with a 100% recovery rate. However, upon looking at the weight distribution of the embedded layer, it is obvious that the repartition had been tampered with :</p>
-
-<img src="images/no_wm_mnist.png?raw=true" alt="no watermark mnist"/>
-<img src="images/uchida_mnist.png?raw=true" alt="uchida watermark mnist"/>
-
-<p class="articletext">This breaks the principle of security, which states that the matermark should be inpossible to detect. It is one of the biggest flaws with Uchida's algorithm. Now let's try to implement RIGA in order to see if it fares better .</p>
 
 ---
 
