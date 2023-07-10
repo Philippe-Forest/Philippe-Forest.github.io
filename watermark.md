@@ -49,8 +49,8 @@ In practice, the way we achieve this is through a cross-entropy loss function, s
 
 <p class="articletext">In both cases, the watermark only begins to degrade long after the accuracy is completely destroyed, so we can safely say that both methods are resistant to pruning, at least on this small test case. Now, for the really interesting part, I wanted to see how both models would react to an overwriting attack. Here are the results :</p>
 
-<img src="images/overwriting_cifar_riga.png?raw=true" alt="overwriting with riga"/>
-<img src="images/overwriting_cifar_uchida.png?raw=true" alt="wmoverwriting with uchida"/>
+<img src="images/overwriting_mnist_riga.png?raw=true" alt="overwriting with riga"/>
+<img src="images/overwriting_mnist_uchida.png?raw=true" alt="overwriting with uchida"/>
 
 <p class="articletext">The difference here is obvious : with Uchida's algorithm, the more epochs we retrain with a new watermark, the more the previous watermark begins to degrade. However, with RIGA, the old matermark remains entirely recoverable even after a new watermark has been added to the weights. </p>
 
