@@ -1,10 +1,5 @@
 
 ---
-title: Spotify
-layout: default
-filename: spotify
-order: 1
----
 
 <p class="titletext">EVOLUTION OF MUSICAL TRENDS OVER THE YEARS WORLDWIDE</p>
 
