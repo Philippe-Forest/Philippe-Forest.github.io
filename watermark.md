@@ -40,7 +40,7 @@ In practice, the way we achieve this is through a cross-entropy loss function, s
 
 <p class="articletext">This algorithm implementation was definitely harder than the previous one, mainly due to the multiple neural networks interacting with each other and the three chained backpropagations. First, let's look at the weight distribution in the embedded layer :</p>
 
-<img src="images/cifar_riga_pruning.png?raw=true" alt="schemawm"/>
+<img src="images/riga_mnist.png?raw=true" alt="schemawm"/>
 
 <p class="articletext">Much better! After training was complete, I pruned progressively more and more of the network and kept track of both the accuracy and the watermark recovery rate at each step. Here are the results :</p>
 
