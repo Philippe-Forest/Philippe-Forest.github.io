@@ -323,7 +323,7 @@ filter: gray;
   height: 100%;
 }
 
-ul {
+.ulreseau {
   margin: 0;
   padding: 0;
   display: flex;
@@ -333,12 +333,12 @@ ul {
   transform: translate(-50%, -50%);
 }
 
-ul li {
+.ulreseau li {
   list-style: none;
   margin: 0 15px;
 }
 
-ul li a {
+.ulreseau li a {
   position: relative; 
   display: block;
   width: 60px;
@@ -352,7 +352,7 @@ ul li a {
   transition: .5s;
 }
 
-ul li a::before {
+.ulreseau li a::before {
   content: '';
   position: absolute;
   top: 0;
@@ -366,12 +366,12 @@ ul li a::before {
   z-index: -1;
 }
 
-ul li a:hover::before {
+.ulreseau li a:hover::before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #5aaa95;
 }
 
-ul li a:hover {
+.ulreseau li a:hover {
   color: #ffee10;
   box-shadow: 0 0 5px #5aaa95;
   text-shadow: 0 0 5px #5aaa95;
