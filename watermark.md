@@ -9,7 +9,10 @@
 
 ---
 
+<p class="articletext">Uchida's method works as follows : once we have our n-bit binary message to embed, we select the convolutional layer of the CNN that we would like to watermark. Then, we generate a random matrix whose elements are drawn from the normal centered distribution. This matrix will be our secret key used to embed the secret message during the training process, and also used when deciphering the watermark. To do so, the Uchida's amazing idea is to add one term to the loss function</p>
+
 ---
+
 <p class="articletext"> Lots of factor need to be taken into account when designing a watermarking scheme : among them is the robusntess criterion, which stipuulates that the watermark should be resistant to retraining of the model, pruning of the model, and overwriting (putting another watermark on the same model should not erase the previous one). Moreover, the watermarking scheme should not affect the model's accuracy. </p>
 
 ---
