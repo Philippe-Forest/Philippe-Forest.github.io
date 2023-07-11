@@ -301,7 +301,7 @@ filter: gray;
   height:50px;
   overflow:hidden;
   margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .animation > div > div {
@@ -444,9 +444,12 @@ text-decoration: underline;
 transform : translate(0px, 20px);
 }
 
-.img {
-  width: 500px; /* control the size */
+.imgarticle {
+  width: 500px;
   aspect-ratio: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen
