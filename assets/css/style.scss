@@ -444,6 +444,11 @@ text-decoration: underline;
 transform : translate(0px, 20px);
 }
 
+.img {
+  width: 500px; /* control the size */
+  aspect-ratio: 1;
+}
+
 @media only screen
    and (min-device-width : 320px)
    and (max-device-width : 480px){  .iconmenu { display: none;} section {width: 500px;} .wrapper {width: 860px;} 
