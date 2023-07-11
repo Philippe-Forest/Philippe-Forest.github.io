@@ -19,25 +19,25 @@
 
 <p class="articletext">We can perform a first basic analysis by checking the evolution of some characteristics over the years. For instance, the average song duration has increased over the year in some countries, like South Africa, but diminished in other, like in Japan, and has overall stayed the same worldwide</p>
 
-<img src="images/duration.png?raw=true" alt="duration"/>
+<img src="images/duration.png?raw=true" alt="duration" class="imgarticle"/>
 
 <p class="articletext">Other characteristics seem to follow a periodic trend. That's the case of "danceability" in Italy and France, which always jumps in summer. </p>
 
-<img src="images/danceability.png?raw=true" alt="danceability"/>
+<img src="images/danceability.png?raw=true" alt="danceability" class="imgarticle"/>
 
 ---
 
 <p class="articletext">For a more thorough inspection, we can calculate the correlation between each characteristic and the average performance of a song. We can also split the results by country and by week for maximum specificity. This gives us some nice insight that I chose to display in a circular fashion to account for the periodic nature of musical trends. This powerful way of vizualising gives us immediately the broad trend over the year for a specific country. For instance, in Italy, There seem to be a massive popularity "of high-valence" (aka happy) songs between the weeks 25 to 24, which corresponds roughly to summer. </p>
 
-<img src="images/wheel_Italy.png?raw=true" alt="wheel_Italy"/>
+<img src="images/wheel_Italy.png?raw=true" alt="wheel_Italy" class="imgarticle"/>
 
 <p class="articletext">Though this could be easily expected, there are still huge differences in the correlations across various countries. For instance, the Nicaraguan wheel looks widely different from the Italian one : </p>
 
-<img src="images/wheel_Nicaragua.png?raw=true" alt="wheel_Nicaragua"/>
+<img src="images/wheel_Nicaragua.png?raw=true" alt="wheel_Nicaragua" class="imgarticle"/>
 
 <p class="articletext">Just for fun, let's plot every country at the same time and animate based on the current week of the year</p>
 
-<img src="images/featuresovertheyear.gif?raw=true" alt="features over the year"/>
+<img src="images/featuresovertheyear.gif?raw=true" alt="features over the year" class="imgarticle"/>
 
 <p class="articletext">Even though this last animation highlights both a great diversity across countries and some variability over time, we need to keep in mind that the correlations showed here are rather weak on average, as most of them are below 0,2. This is a hint that it would be hard to produce a predictive model based solely on these explanatory variables, and indeed, our model turned out to be rather mediocre for popularity prediction.</p>
 
