@@ -18,6 +18,17 @@ header {
   justify-content: center;
 }
 
+section {
+  width:600px;
+  float:right;
+  padding-bottom:50px;
+}
+
+.wrapper {
+  width:960px;
+  margin:0 auto;
+}
+
 .spotify {
   --s: 300px;   /* the size of the image */
   --b: 10px;     /* the border thickness*/
