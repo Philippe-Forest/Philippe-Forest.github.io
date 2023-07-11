@@ -5,7 +5,10 @@
 
 ---
 
-<p class="articletext">The "Cinémathèque de Bretagnes" possess a collection of more than 30000 movies, half of which are amateur and half of which aree professionnal. </p> 
+<p class="articletext">The "Cinémathèque de Bretagnes" possess a collection of more than 30000 movies, half of which are amateur and half of which are professionnal. After their numerization, they are uploaded on the <a href="https://www.cinematheque-bretagne.bzh/" class="imgarticle">Cinémathèque website</a>, along with a short summary and a few keywords descriptors : </p> 
+
+<img src="images/blackboxwhitebow.png?raw=true" alt="blackboxwhitebox" class="imgarticle"/>
+<img src="images/blackboxwhitebow.png?raw=true" alt="blackboxwhitebox" class="imgarticle"/>
 
 ---
 
