@@ -160,8 +160,8 @@ filter: gray;
 
 .neuralwrapper:hover .neuraltext {
   
-  animation: fadeInNeural 2s; 
-  animation-fill-mode: forwards;
+  /*animation: fadeInNeural 2s; 
+  animation-fill-mode: forwards;*/
   height: 10rem;
   opacity: 1;
   transform: translate(0, 30px);
@@ -178,7 +178,6 @@ filter: gray;
   width: 35rem;
   height:1rem;
   transition: 2s ease;
-  opacity: 0;
   
 }
 /*
