@@ -7,13 +7,15 @@
 
 <p class="articletext">The "Cinémathèque de Bretagnes" possess a collection of more than 30000 movies, half of which are amateur and half of which are professionnal. After their numerization, they are uploaded on the <a href="https://www.cinematheque-bretagne.bzh/" class="imgarticle">Cinémathèque website</a>, along with a short summary and a few keywords descriptors : </p> 
 
-<img src="images/blackboxwhitebow.png?raw=true" alt="blackboxwhitebox" class="imgarticle"/>
-<img src="images/blackboxwhitebow.png?raw=true" alt="blackboxwhitebox" class="imgarticle"/>
+<img src="images/blackboxwhitebow.png?raw=true" alt="resumecinematheque" class="imgarticle"/>
+<img src="images/blackboxwhitebow.png?raw=true" alt="keywordscinematheque" class="imgarticle"/>
+
+<p class="articletext">If you can speak French, you will notice that a lot of the words above are highly specific and sometimes impossible to recover from the footage alone (the name of the city for instance). During our first meeting with the client, we </p>
 
 ---
 
-<img src="images/blackboxwhitebow.png?raw=true" alt="blackboxwhitebox" class="imgarticle"/>
-<p class="articletext">a) White-box scheme. b) Black-box scheme.</p>
+
+<p class="articletext">evaluation, scrapping, audio analysis, timestamps</p>
   
 ---
 
