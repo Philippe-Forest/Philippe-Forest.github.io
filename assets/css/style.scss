@@ -161,11 +161,9 @@ filter: gray;
 }
 
 .neuralwrapper:hover .neuraltext {
-  
   height: 10rem;
   opacity: 1;
   transform: translate(0, 30px);
-  
 }
 
 .neuraltext {
@@ -210,7 +208,7 @@ filter: gray;
   overflow: hidden;
   width: 35rem;
   height:1rem
-  
+  transition: 2s ease;
 }
 
 @keyframes fadeInCinematheque {
@@ -226,8 +224,9 @@ filter: gray;
 }
 
 .cinemathequewrapper:hover .cinemathequetext {
-  animation: fadeInCinematheque 2s; 
-  animation-fill-mode: forwards;
+  height: 10rem;
+  opacity: 1;
+  transform: translate(0, 30px);
 }
 
 .optitext {
