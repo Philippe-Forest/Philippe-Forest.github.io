@@ -60,9 +60,9 @@ section {
 }
 
 .spotifywrapper:hover .spotifytext {
-  heigth: 5rem; 
+  height: 10rem;
   opacity: 1;
-  transform : translate(0, 30px);
+  transform: translate(0, 30px);
 }
 
 .spotifytext {
@@ -73,7 +73,7 @@ section {
   font-size: 1.75rem;
   overflow: hidden;
   width: 35rem;
-  height:1rem;
+  height: 1rem;
   transition: 2s ease;
   
 }
@@ -87,9 +87,9 @@ section {
 
 .BNFwrapper:hover .BNFtext {
   
-  heigth: 8rem; 
+  height: 10rem;
   opacity: 1;
-  transform : translate(0, 30px);
+  transform: translate(0, 30px);
   
 }
 
@@ -101,7 +101,7 @@ section {
   font-size: 1.75rem;
   overflow: hidden;
   width: 35rem;
-  height:1rem;
+  height: 1rem;
   transition: 2s ease;
 }
 
@@ -174,7 +174,7 @@ filter: gray;
   font-size: 1.75rem;
   overflow: hidden;
   width: 35rem;
-  height:1rem;
+  height: 1rem;
   transition: 2s ease;
   
 }
