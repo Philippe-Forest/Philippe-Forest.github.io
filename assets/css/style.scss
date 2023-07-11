@@ -160,8 +160,6 @@ filter: gray;
 
 .neuralwrapper:hover .neuraltext {
   
-  /*animation: fadeInNeural 2s; 
-  animation-fill-mode: forwards;*/
   height: 10rem;
   opacity: 1;
   transform: translate(0, 30px);
@@ -180,11 +178,6 @@ filter: gray;
   transition: 2s ease;
   
 }
-/*
-@keyframes fadeInNeural {
-    from { transform: translate(0, 0px);}
-    to { transform: translate(0, 30px);}
-}*/
 
 .cinematheque {
   width: 300px;
