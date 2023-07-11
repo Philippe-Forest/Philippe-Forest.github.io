@@ -9,7 +9,7 @@
 
 ---
 
-<img src="images/blackboxwhitebow.png?raw=true" alt="blackboxwhitebox"/>
+<img src="images/blackboxwhitebow.png?raw=true" alt="blackboxwhitebox" class="imgarticle"/>
 <p class="articletext">a) White-box scheme. b) Black-box scheme.</p>
   
 ---
@@ -23,8 +23,8 @@ In practice, the way we achieve this is through a cross-entropy loss function, s
 
 <p class="articletext">The implementation of this algorithm is pretty straightworfard, and can be found in <a href="https://colab.research.google.com/drive/1DUnfiuhqV2FR3V9jndP47zLTmsFhyNh2" class="linkedinlink">the notebook.</a> I implemented it on the CIFAR-10 and MNIST datasets, using a slighty improved version of <a href="https://en.wikipedia.org/wiki/LeNet" class="linkedinlink">LeNet.</a> I noticed a 2% decrease in accuracy on the CIFAR dataset when applying the watermarking, but I was able to successfully embed and retreive the message with a 100% recovery rate. However, upon looking at the weight distribution of the embedded layer, it is obvious that the repartition had been tampered with :</p>
 
-<img src="images/no_wm_mnist.png?raw=true" alt="no watermark mnist"/>
-<img src="images/uchida_mnist.png?raw=true" alt="uchida watermark mnist"/>
+<img src="images/no_wm_mnist.png?raw=true" alt="no watermark mnist" class="imgarticle"/>
+<img src="images/uchida_mnist.png?raw=true" alt="uchida watermark mnist" class="imgarticle"/>
 
 <p class="articletext">This breaks the principle of security, which states that the matermark should be inpossible to detect. It is one of the biggest flaws with Uchida's algorithm. Now let's try to implement RIGA in order to see if it fares better .</p>
 
@@ -33,7 +33,7 @@ In practice, the way we achieve this is through a cross-entropy loss function, s
 <p class="articletext">RIGA adresses the issue of weighth distribution by cleverly drawing inspiration from GANs. To simplify a little bit, RIGA ditches the linear combinations that we mentioned earlier, and replaces them with a multi-layer perceptron whose job is to take as inputs the current model's weight, and map them to the appropriate message values. This update is not very surprising since, as we mentioned, the initial problem was identical to a classification task using cross-entropy. Moreover, by replacing the rigid linear combinations with a flexible neural network, we can now embed not only binary messages, but pretty much anything we want! However, the real kicker added by RIGA is the introduction of yet another neural network, whose job is to analyse the current model's weights, and predict whether or not these weights have been tampered with. The model in charge of mapping the weights to the message then receives a penality if the weight has been deemed suspicious by the second neural network. This is of course very similar to the way GANs work, with a generator trying to produce an element belonging to a specific distribution (The distribution of all possible non-watermarked weights), and a discriminator tasked to identify the outliers. To make this work, we first need to generate a bunch of non-watermarked weights so our discriminator can have a reference to decide whether or not a new weight distribution is watermarked or not. The following diagram is a brief summary of the whole scheme, where wnon stands for non-watermarked weights, m is the message to embed and Ftgt is the target model for our watermark.</p>
 
 
-<img src="images/schemawm.png?raw=true" alt="schemawm"/>
+<img src="images/schemawm.png?raw=true" alt="schemawm" class="imgarticle"/>
 
 ---
 
@@ -41,17 +41,17 @@ In practice, the way we achieve this is through a cross-entropy loss function, s
 
 <p class="articletext">This algorithm implementation was definitely harder than the previous one, mainly due to the multiple neural networks interacting with each other and the three chained backpropagations required to update the weights. First, let's look at the weight distribution in the embedded layer :</p>
 
-<img src="images/riga_mnist.png?raw=true" alt="riga mnist"/>
+<img src="images/riga_mnist.png?raw=true" alt="riga mnist" class="imgarticle"/>
 
 <p class="articletext">Much better! After training was complete, I pruned progressively more and more of the network and kept track of both the accuracy and the watermark recovery rate at each step. Here are the results for both Uchida and RIGA :</p>
 
-<img src="images/cifar_riga_pruning.png?raw=true" alt="pruning with riga"/>
-<img src="images/cifar_uchida_pruning.png?raw=true" alt="pruning with uchida"/>
+<img src="images/cifar_riga_pruning.png?raw=true" alt="pruning with riga" class="imgarticle"/>
+<img src="images/cifar_uchida_pruning.png?raw=true" alt="pruning with uchida" class="imgarticle"/>
 
 <p class="articletext">In both cases, the watermark only begins to degrade long after the accuracy is completely destroyed, so we can safely say that both methods are resistant to pruning, at least on this small test case. Now, for the really interesting part, I wanted to see how both models would react to an overwriting attack. To do so, I have progressively retrained the models by adding a new watermark at the same time, and kept track of both the old watermark recovery rate (in red) and the new watermark recovery rate as it is slowly added to the model. (in blue). Here are the results for both RIGA and Uchida methods :</p>
 
-<img src="images/overwriting_mnist_riga.png?raw=true" alt="overwriting with riga"/>
-<img src="images/overwriting_mnist_uchida.png?raw=true" alt="overwriting with uchida"/>
+<img src="images/overwriting_mnist_riga.png?raw=true" alt="overwriting with riga" class="imgarticle"/>
+<img src="images/overwriting_mnist_uchida.png?raw=true" alt="overwriting with uchida" class="imgarticle"/>
 
 <p class="articletext">The difference here is obvious : with Uchida's algorithm, the more epochs we retrain with a new watermark, the more the previous watermark begins to degrade. However, with RIGA, the old matermark remains entirely recoverable even after a new watermark has been added to the weights. Therefore, RIGA adds a lot more robustness as well as being virtually impossible to detect from weight distribution alone. <br><br>
 Other algorithms I have not covered are designed so that the watermark can be introduced in the model during the process of fine-tuning, or even during distillation. The field of neural network watermarking is still relatively new and expanding, so there is no doubt that more of these clever algorithms will pop up in the years to come!</p>
