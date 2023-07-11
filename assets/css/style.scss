@@ -76,8 +76,9 @@ section {
 }
 
 .spotifywrapper:hover .spotifytext {
-  animation: fadeInSpotify 2s; 
-  animation-fill-mode: forwards;
+  heigth: 5rem; 
+  opacity: 1;
+  translate(0, 30px);
 }
 
 .BNFwrapper {
