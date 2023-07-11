@@ -442,5 +442,5 @@ transform : translate(0px, 20px);
 
 @media only screen
    and (min-device-width : 320px)
-   and (max-device-width : 480px){  .iconmenu { display: none;}}
+   and (max-device-width : 480px){  .iconmenu { display: none;} section {width: 500px;} .wrapper {width: 1160px;} }
 
