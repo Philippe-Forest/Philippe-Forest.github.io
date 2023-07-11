@@ -233,13 +233,8 @@ filter: gray;
   font-size: 1.75rem;
   overflow: hidden;
   width: 35rem;
-  height:1rem
-  
-}
-
-@keyframes fadeInOpti {
-    from { heigth: 1; opacity: 0; transform: translate(0px, 0px);}
-    to { height: 11rem; opacity: 1; transform: translate(0, 30px);}
+  height:1rem;
+  transition: 2s ease;
 }
 
 .optiwrapper {
@@ -250,8 +245,9 @@ filter: gray;
 }
 
 .optiwrapper:hover .optitext {
-  animation: fadeInOpti 2s; 
-  animation-fill-mode: forwards;
+  height: 13rem;
+  opacity: 1;
+  transform: translate(0, 30px);
 }
 
 .opti {
