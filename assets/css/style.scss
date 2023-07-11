@@ -51,18 +51,6 @@ section {
   outline-offset: var(--g);
 }
 
-.spotifytext {
-  opacity: 0;
-  color: #00C26D;
-  font-family:'Raleway';
-  text-align: center;
-  font-size: 1.75rem;
-  overflow: hidden;
-  width: 35rem;
-  height:1rem;
-  transition: 2s ease;
-  
-}
 
 .spotifywrapper {
   display: flex;
@@ -74,7 +62,20 @@ section {
 .spotifywrapper:hover .spotifytext {
   heigth: 5rem; 
   opacity: 1;
-  transform : translate(0, 3px);
+  transform : translate(0, 30px);
+}
+
+.spotifytext {
+  opacity: 0;
+  color: #00C26D;
+  font-family:'Raleway';
+  text-align: center;
+  font-size: 1.75rem;
+  overflow: hidden;
+  width: 35rem;
+  height:1rem;
+  transition: 2s ease;
+  
 }
 
 .BNFwrapper {
@@ -91,6 +92,19 @@ section {
   transform : translate(0, 30px);
   
 }
+
+.BNFtext {
+  opacity: 0;
+  color: white;
+  font-family:'Raleway';
+  text-align: center;
+  font-size: 1.75rem;
+  overflow: hidden;
+  width: 35rem;
+  height:1rem;
+  transition: 2s ease;
+}
+
 
 .gallery {
   --g: 7px; /* the gap */
@@ -121,18 +135,6 @@ section {
 .gallery:hover > img:first-child,
 .gallery:hover > img:first-child:hover + img{
   --_p: calc(-30% - var(--g));
-}
-
-.BNFtext {
-  opacity: 0;
-  color: white;
-  font-family:'Raleway';
-  text-align: center;
-  font-size: 1.75rem;
-  overflow: hidden;
-  width: 35rem;
-  height:1rem;
-  transition: 2s ease;
 }
 
 .blur{
