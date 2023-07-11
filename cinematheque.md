@@ -24,6 +24,6 @@
 
 <img src="images/poster.png?raw=true" alt="poster cinematheque" class="imgarticle"/>
 
-<p class="articletext">I would like to thank <a href="https://www.linkedin.com/in/phconze/" class="linkedinlink">Pierre-Henri Conze</a>
+<p class="articletext">I would like to thank <a href="https://www.linkedin.com/in/phconze/" class="linkedinlink">Pierre-Henri Conze</a> for tutoring this project, and <a href="https://www.linkedin.com/in/lucie-jullien-89339013/" class="linkedinlink">Lucie Jullien</a> and Nicolas Nogues for collaborating with us.
 
 
