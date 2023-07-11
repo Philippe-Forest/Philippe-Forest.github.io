@@ -48,7 +48,7 @@ In practice, the way we achieve this is through a cross-entropy loss function, s
 <img src="images/cifar_riga_pruning.png?raw=true" alt="pruning with riga" class="imgarticle"/>
 <img src="images/cifar_uchida_pruning.png?raw=true" alt="pruning with uchida" class="imgarticle"/>
 
-<p class="articletext">In both cases, the watermark only begins to degrade long after the accuracy is completely destroyed, so we can safely say that both methods are resistant to pruning, at least on this small test case. Now, for the really interesting part, I wanted to see how both models would react to an overwriting attack. To do so, I have progressively retrained the models by adding a new watermark at the same time, and kept track of both the old watermark recovery rate (in red) and the new watermark recovery rate as it is slowly added to the model. (in blue). Here are the results for both RIGA and Uchida methods :</p>
+<p class="articletext">In both cases, the watermark only begins to degrade long after the accuracy is completely destroyed, so we can safely say that both methods are resistant to pruning, at least on this small test case. Now, for the really interesting part, I wanted to see how both models would react to an overwriting attack. To do so, I have progressively retrained the models by adding a new watermark at the same time, and kept track of both the old watermark recovery rate (in blue) and the new watermark recovery rate as it is slowly added to the model. (in orange). Here are the results for both RIGA and Uchida methods :</p>
 
 <img src="images/overwriting_mnist_riga.png?raw=true" alt="overwriting with riga" class="imgarticle"/>
 <img src="images/testuchida.png?raw=true" alt="overwriting with uchida" class="imgarticle"/>
