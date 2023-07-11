@@ -20,17 +20,11 @@
 
 ---
 
-<p class="articletext">This part of the process was pretty straightforward : I experimented with many different OCR algorithms available, some open source and other not, among which : EasyOCR, ABBY Finereader, pyTesseract, Google OCR and CRAFT (which I also used for text detection in the previous part). The absolute unmatched winner emerged as Google OCR, with results that quite honestly almost matched human performance. Given the difficulty posed by some of the images (see screenshot above)</p>
-
----
-
+<p class="articletext">This part of the process was pretty straightforward : I experimented with many different OCR algorithms available, some open source and other not, among which : EasyOCR, ABBY Finereader, pyTesseract, Google OCR and CRAFT (which I also used for text detection in the previous part). The absolute unmatched winner emerged as Google OCR, with results that quite honestly almost matched human performance. Given the difficulty posed by some of the images (see screenshot above if you don't believe me), we decided to continue with this solution. I performed a brief estimation of the pricing and estimated that we could process the entirety of the video collection for less than a hundred euros. It was now time for the final step, the data processing, formatting and structuring. </p>
 
 ---
 
 <p class="articletext">RIGA adresses the issue of weighth distribution by cleverly drawing inspiration from GANs. To simplify a little bit, RIGA ditches the linear combinations that we mentioned earlier, and replaces them with a multi-layer perceptron whose job is to take as inputs the current model's weight, and map them to the appropriate message values. This update is not very surprising since, as we mentioned, the initial problem was identical to a classification task using cross-entropy. Moreover, by replacing the rigid linear combinations with a flexible neural network, we can now embed not only binary messages, but pretty much anything we want! However, the real kicker added by RIGA is the introduction of yet another neural network, whose job is to analyse the current model's weights, and predict whether or not these weights have been tampered with. The model in charge of mapping the weights to the message then receives a penality if the weight has been deemed suspicious by the second neural network. This is of course very similar to the way GANs work, with a generator trying to produce an element belonging to a specific distribution (The distribution of all possible non-watermarked weights), and a discriminator tasked to identify the outliers. To make this work, we first need to generate a bunch of non-watermarked weights so our discriminator can have a reference to decide whether or not a new weight distribution is watermarked or not. The following diagram is a brief summary of the whole scheme, where wnon stands for non-watermarked weights, m is the message to embed and Ftgt is the target model for our watermark.</p>
-
-
-<img src="images/schemawm.png?raw=true" alt="schemawm"/>
 
 ---
 
