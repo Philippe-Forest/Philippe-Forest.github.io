@@ -26,6 +26,6 @@
 
 <p class="articletext">Though it might not seem that way at first, this part of the process is actually by far the hardest. Think about it : some credits sequences roll from bottom to top, some other just jump from screen to screen, some have the name displayed before the corresponding role and some have the opposite. Some have one column, two column, or even three columns of text. A lot of time, the format of the display changes during the same credit sequence! Let's see two examples from the BnF to try to identify all the things our algorithms should do correctly :</p>
 
-<img src="images/credits1.png?raw=true" alt="pruning with riga"/>
-<img src="images/credits2.png?raw=true" alt="pruning with uchida"/>
+<img src="images/credits1.png?raw=true" alt="first example"/>
+<img src="images/credits2.png?raw=true" alt="second example"/>
 
