@@ -22,4 +22,8 @@
 
 <p class="articletext">Since the densenet architecture is highly configurable, the question is : how big (or small) should the initial model be? Of course, if we chose a bigger model, we always have the possibility to prune it later, but pruned models typically don't tend to perform as well as unpruned models with the same size. Therefore, it may seem strategic to begin with a model that's already as close as possible to the recquired accuracy treshold (90%), but then we run the risk of dropping below this limit when we are going to apply various techniques to reduce the score, such as quantization. </p>
 
+---
+
 <h1 class="articletext">Data augmentation and training optimization</h1>
+
+<p class="articletext">
