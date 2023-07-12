@@ -17,18 +17,22 @@
 <figcaption>Each brain volume is divided in small cubic regions called voxels.</figcaption>
 </figure>
 
-<p class="articletext">Now, we need to find a resting-state fMRI dataset. Resting-state fMRI data (data acquired when the subject is not performing any particular task) is a great way to analyze the natural connectivity patterns of individuals, and its study has revealed a number of networks which are consistently found in healthy subjects, and that represent specific patterns of synchronous activity. Furthermore, our dataset need to be pre-processed, as raw fMRI data needs to be standardized, detrended, motion corrected, smoothed, and a bunch of other steps that we will not cover in this article.
+<p class="articletext">Now, we need to find a resting-state fMRI dataset. Resting-state fMRI data (data acquired when the subject is not performing any particular task) is a great way to analyze the natural connectivity patterns of individuals, and its study has revealed a number of networks which are consistently found in healthy subjects, and that represent specific patterns of synchronous activity. Furthermore, our dataset need to be pre-processed, as raw fMRI data needs to be standardized, detrended, motion corrected, smoothed, and a bunch of other steps that I will not cover in this article.</p>
 
 <figure>
-<img src="images/neuro1.png?raw=true" alt="neuroscience" class="imgarticle"/>
-<figcaption>The leibniz Mind-Brain-Body Dataset.</figcaption>
+<img src="images/preprocessing.png?raw=true" alt="neuroscience" class="imgarticle"/>
+<figcaption>A typical preprocessing pipeline for fMRI data.</figcaption>
 </figure>
 
+<p class="articletext">We eventually settled on using the Leipzig Mind-Brain-Body Dataset, since it possesses the criteria mentioned above, plus a bunch of extra data on the subjects, such as their answers to various questionnaires, including the Goldsmiths Musical Sophistication Index (Gold-MSI) which evaluates the musical engagement of the subject based on various factors, including academical training and self-reported capabilities.</p>
+  
 <figure>
 <img src="images/neuro1.png?raw=true" alt="neuroscience" class="imgarticle"/>
-<figcaption>The leibniz Mind-Brain-Body Dataset.</figcaption>
+<figcaption>The Leipzig Mind-Brain-Body Dataset.</figcaption>
 </figure>
 
+<p class="articletext">We are going to explore and use three category of functional data representation, which build on each other. The first one is simply a time serie analysis performed on each voxel individually.  </p>
+  
 <figure>
 <img src="images/neuro2.png?raw=true" alt="neuroscience" class="imgarticle"/>
 <figcaption>Three different approaches to the problem.</figcaption>
