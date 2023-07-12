@@ -5,7 +5,7 @@
 
 ---
 
-<p class="articletext">Since the advances of functional Magnetic Resonance Imagery (fMRI), neuroscience have seen a surge of highly-advanced statistical techniques to try to uncover meaningful patterns in the functional data of the brain. The following project present a handful of these techniques applied to functional brain data in order to make predictions on the gender, as well as the musical affinity of /p> 
+<p class="articletext">Since the advances of functional Magnetic Resonance Imagery (fMRI), neuroscience have seen a surge of highly-advanced statistical techniques to try to uncover meaningful patterns in the functional data of the brain. The following project present a handful of these techniques applied to functional brain data in order to make predictions on the gender, as well as the musical affinity of 152 subjects.</p> 
 
 ---
 
