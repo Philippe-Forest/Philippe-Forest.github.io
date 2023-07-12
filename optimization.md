@@ -17,7 +17,7 @@
 
 <figure>
 <img src="images/prune.png?raw=true" alt="prune" class="imgarticle"/>
-<figcaption>Pruning</figcaption>
+<figcaption>Pruning consists of cutting some connections in the network, usually the weakest ones.</figcaption>
 </figure>
 
 <p class="articletext">Since the densenet architecture is highly configurable, the question is : how big (or small) should the initial model be? Of course, if we chose a bigger model, we always have the possibility to prune it later, but pruned models typically don't tend to perform as well as unpruned models with the same size. Therefore, it may seem strategic to begin with a model that's already as close as possible to the recquired accuracy treshold (90%), but then we run the risk of dropping below this limit when we are going to apply various techniques to reduce the score, such as quantization. This is why it's very important to already have an overview of the various methods we will want to use even before selecting the base model. Thus, we have performed a serie of test in order to see which techniques were promising or not.</p>
@@ -26,6 +26,46 @@
 
 <h1 class="articletext">Data augmentation and training optimization</h1>
 
-<p class="articletext">Since our wiggle room is so small with tiny models, we need to make sure that they are used to the best of their capacity. This is why experimenting with various types of data augmentation is crucial is this first step. On top of the classical croping, rotating and jittering techniques that are commonly used, we experimented with a the <a href="https://arxiv.org/abs/1710.09412" class="linkedinlink">Mixup algorithm</a>, that allows to effectively "mix" images that belong to two different classes, and their respective labels as well. T
+<p class="articletext">Since our wiggle room is so small with tiny models, we need to make sure that they are used to the best of their capacity. This is why experimenting with various types of data augmentation is crucial is this first step. On top of the classical croping, rotating and jittering techniques that are commonly used, we experimented with a the <a href="https://arxiv.org/abs/1710.09412" class="linkedinlink">Mixup algorithm</a>, that allows to effectively "mix" images that belong to two different classes, and their respective labels as well. This approach, combined with a cosine annealing scheduler, allowed us to boost our base accuracy by 1.7% on different Densenet architectures.</p>
 
+<figure>
+<img src="images/mixup.png?raw=true" alt="prune" class="imgarticle"/>
+<figcaption>The mixup algorithm allows to </figcaption>
+</figure>
 
+<figure>
+<img src="images/training.png?raw=true" alt="training" class="imgarticle"/>
+<figcaption>We tried many combinations of schedulers and optimizers to make the best use of our base model.</figcaption>
+</figure>
+
+---
+
+<h1 class="articletext">Quantization</h1>
+
+<p class="articletext">Reducing the number of parameters through pruning is one thing, but reducing the number of operations performed during each forward pass is also necessary to acheive a good score at the challenge. The most straightforward way to do so is by performing quantization, which consists in reducing the precision of the weights, biases, and activations such that they consume less memory. There are two dirrefent kinds of quantization : for static quantization, the parameters are calculated in advance using a calibration data set. The activations thus have the same scale and zero point during each forward pass. For dynamic quantization, the parameters are calculated on-the-fly, and are specific for each forward pass. We experimented with different kinds of quatizations, both static and dynamic, and eventually decided to rely on a 16-bit static quantization, thus dividing the amount of operations performed by two!</p>
+
+<figure>
+<img src="images/quantization.png?raw=true" alt="quantization" class="imgarticle"/>
+<figcaption>Quantization allows to trade precision in exchange of a reduction in number of operations.</figcaption>
+</figure>
+
+---
+
+<h1 class="articletext">Group convolution</h1>
+
+<p class="articletext">Grouped convolutions is a technique using multiple kernels per layer, resulting in multiple channel outputs per layer. This leads to wider networks allowing to learn richer features with a minimal amount of parameters and operations. When performing a convolution with two groups, the operation becomes equivalent to having two convolutional layers side by side, each seeing half the input channels, and producing half the output channels, and both subsequently concatenated. When performing with as many groups as there are inputs channel, each input channel is convolved with its own set of filters, of size: (floor(c_out / c_in)) </p>
+
+<figure>
+<img src="images/groups.png?raw=true" alt="group" class="imgarticle"/>
+<figcaption>A visualization of grouped convolution with two groups.</figcaption>
+</figure>
+
+<p class="articletext">Once again, our experimentation was mostly guided by trial and error, and we eventually settled for 3 grouped convolutions, with size 2, 3 and 3.
+
+<figure>
+<img src="images/groupmodel.png?raw=true" alt="group" class="imgarticle"/>
+<figcaption>Our final densenet architecture, with grouped convolutions.</figcaption>
+</figure>
+---
+
+<h1 class="articletext">Distillation</h1>
