@@ -139,11 +139,10 @@ section {
 
 
 .neurogallery {
-  --g: 7px;   /* the gap */
+  --g: 5px;   /* the gap */
   --s: 300px; /* the size */
   
   display: grid;
-  border-radius: 50%;
 }
 .neurogallery > img {
   grid-area: 1/1;
