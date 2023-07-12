@@ -27,7 +27,7 @@
 
 <div class="neurowrapper">
 <a href="./neuroscience">
-<div class="braingallery">
+<div class="neurogallery">
   <img src="images/cerveau1.png?raw=true" alt="cerveau 1">
   <img src="images/cerveau2.png?raw=true" alt="cerveau 2">
   <img src="images/cerveau-3.png?raw=true" alt="cerveau 3">
