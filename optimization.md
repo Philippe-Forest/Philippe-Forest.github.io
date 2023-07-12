@@ -81,4 +81,8 @@
 <figcaption>Distillation allows to condense knowledge from a teacher model to a student model.</figcaption>
 </figure>
 
+---
+
+<h1 class="articletext">Conclusion</h1>
+
 <p class="articletext">Despite a few shortcomings and a lot of experimentation that did not always go as planned, we eventually managed to finish second of this year, also beating every submissions from last year in the process. If we had more time, we would have liked to experiment with other base architectures such as EfficientNet, or try other kinds of pruning, such as structured pruning, as opposed to the unstructured global pruning that we experimented with.</p>
