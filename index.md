@@ -54,7 +54,7 @@
 
 <div class="optiwrapper">
     <a href="./optimization"><img src="images/opti.jpg?raw=true" alt="optimization" class="opti"/></a>
-    <p class="optitext">Experimenting with various ways to optimize efficiency of a convolutional neural network. Final tradeoff was -0.03% accuracy for -99.7% model size.</p>
+    <p class="optitext">Experimenting with various ways to optimize efficiency of a convolutional neural network, as part of a competition where we finished second.</p>
 </div>
 
 <br>
