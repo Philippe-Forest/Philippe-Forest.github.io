@@ -5,10 +5,7 @@
 
 ---
 
-<p class="articletext">The French National Library (BnF) was founded in 1537 by François 1er. It's mission is to collect, preserve, enrich and communicate the national documentary heritage. On top of its massive collection of books, it also contains 390 000 video documents, many of which are in the process of being numerized in order to make them accessible by the public on <a href="https://gallica.bnf.fr/accueil/fr/content/accueil-fr" class="linkedinlink">Gallica</a>. However, the process of documenting every movie with the appropriate metadata is very time-consuming, and performed by the same specialized personnel in charge of the numerization, who (surprisingly enough) told me that they do not appreciate spending their time filling out charts with the name of the second assistant cameraman. As part as my 4 month internship, I was tasked by the library to produce a proof of concept algorithm capable of :<br><br>
-1) Automatically detecting the beginning and the end of the credits in a movie<br>
-2) Performing OCR to extract all the relevant information<br>
-3) Structure said information in a standardized way, so that it would be ready for querying on Gallica.</p> 
+<p class="articletext">Since the advances of fMRI, neuroscience have seen a surge of highly-advanced statistical techniques to try to uncover meaningful patterns in the functional data of the brain./p> 
 
 ---
 
