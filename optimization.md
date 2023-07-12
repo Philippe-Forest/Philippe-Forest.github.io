@@ -30,7 +30,7 @@
 
 <figure>
 <img src="images/mixup.png?raw=true" alt="prune" class="imgarticle"/>
-<figcaption>The mixup algorithm allows to </figcaption>
+<figcaption>The mixup algorithm allows to improve both the robustness and the generalization of the trained model.</figcaption>
 </figure>
 
 <figure>
