@@ -152,7 +152,7 @@ section {
   transform: translate(var(--_x,0),var(--_y,0));
   cursor: pointer;
   z-index: 0;
-  transition: .3s, z-index 0s .3s;
+  transition: .3s, z-index 0s .8s;
 }
 .neurogallery img:hover {
   --_i: 1;
