@@ -23,6 +23,23 @@
 
 ---
 
+<p class="titletext" >PHENOTYPE PREDICTION FROM FUNCTIONAL BRAIN ACTIVITY</p>
+
+<div class="neurowrapper">
+<a href="./neuroscience">
+<div class="braingallery">
+  <img src="images/cerveau1.png?raw=true" alt="cerveau 1">
+  <img src="images/cerveau2.png?raw=true" alt="cerveau 2">
+  <img src="images/cerveau-3.png?raw=true" alt="cerveau 3">
+  <img src="images/cerveau4.png?raw=true" alt="cerveau 4">
+</div>
+</a>
+<p class="neurotext">Neuroscience stylée.</p>
+</div>
+<br>
+
+---
+
 <p class="titletext" >MOVIE CREDITS EXTRACTOR</p>
 
 <div class="BNFwrapper">
