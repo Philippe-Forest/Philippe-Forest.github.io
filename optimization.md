@@ -9,5 +9,7 @@
 
 ---
 
-<p class="articletext">The first part of the project was obviously chosing our base model architecture. We initially tried with the smallest version of ResNet that we could make, with only 10 convolutional layers, but even this was far too big for our purpose. Instead, we opted for a <a href="https://arxiv.org/abs/1608.06993" class="linkedinlink">Densenet</a> architecture. Densenets were introduced in 2016, and exploit the parameter redundancy of classical CNN by connecting the output of  every convolutional layer with every other layer of the same simension, thus reducing the need for parameter redundancy. 
+<p class="articletext">The first part of the project was obviously chosing our base model architecture. We initially tried with the smallest version of ResNet that we could make, with only 10 convolutional layers, but even this was far too big for our purpose. Instead, we opted for a <a href="https://arxiv.org/abs/1608.06993" class="linkedinlink">Densenet</a> architecture. Densenets were introduced in 2016, and exploit the parameter redundancy of classical CNN by connecting the output of  every convolutional layer with every other layer of the same simension, thus reducing the need for parameter redundancy. The following image illustrate this principle :
+
+<img 
 
