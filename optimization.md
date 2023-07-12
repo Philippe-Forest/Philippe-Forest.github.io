@@ -1,31 +1,12 @@
-## This can be your internal website page / project page
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+---
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+<p class="titletext">CNN EFFICIENCY OPTIMIZATION</p>
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+---
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+<p class="articletext">At a time where the latest LLM can have up to 100 trillions parameters, the task of optimizing the efficiency of deep neural networks is becoming more critical than ever. Some initiatives, such as the <a href="https://micronet-challenge.github.io/" class="linkedinlink">Micronet challenge</a> aim to "incentivize the development of efficient models and model compression techniques, as well as providing a forum for more rigorous benchmarking and comparison of existing techniques and for the study of combinations of approaches like sparsity, quantization, distillation, and neural architecture search." As part of a class during my final year at IMT Atlantique, we competed as teams of 2 in a smaller scale challenge, with the objective of attaining at least 90% accuracy on the CIFAR-10 dataset, with a model as efficient as possible. Me and my friend  <a href="https://www.linkedin.com/in/camillefrancoismartin/" class="linkedinlink">Camille François-Martin</a> teamed up and achieved second best overall, with an accuracy of 90.1% and a total of 112.000 parameters. This is how we did it</p>
 
-### 2. Assess assumptions on which statistical inference will be based
+---
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<p class="articletext">The first part of the project was obviously to chose our initial model architecture. We initially tried with the smallest version of ResNet that we 
