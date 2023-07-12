@@ -34,7 +34,7 @@
   <img src="images/cerveau4.png?raw=true" alt="cerveau 4">
 </div>
 </a>
-<p class="neurotext">Neuroscience stylée.</p>
+<p class="neurotext">Applying advanced machine learning techniques to fMRI data to uncover meaningful brain patterns.</p>
 </div>
 <br>
 
