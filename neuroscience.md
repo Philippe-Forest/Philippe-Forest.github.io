@@ -1,7 +1,7 @@
 
 ---
 
-<p class="titletext">Neuroscience</p>
+<p class="titletext">MACHINE LEARNING APPLIED TO NEUROSCIENCE</p>
 
 ---
 
@@ -31,7 +31,7 @@
 <figcaption>The Leipzig Mind-Brain-Body Dataset.</figcaption>
 </figure>
 
-<p class="articletext">We are going to explore and use three category of functional data representation, which build on each other. The first one is simply a time serie analysis performed on each voxel individually.  </p>
+<p class="articletext">We are going to explore and use three category of functional data representation, which build on each other. The first one is simply a time serie analysis performed on each voxel individually. All of the </p>
   
 <figure>
 <img src="images/neuro2.png?raw=true" alt="neuroscience" class="imgarticle"/>
