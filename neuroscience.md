@@ -38,14 +38,22 @@
 <figcaption>How a GLM works.</figcaption>
 </figure>
 
-<p class="articletext">The second approach makes use of our knowledge that the brain is organised in regions that communicate together. Therefore, this method consists in clustering voxels that appear to the same regions, and then studying the correlation
+<p class="articletext">The second approach makes use of our knowledge that the brain is organised in regions that communicate together. Therefore, this method consists in clustering voxels that appear to the same regions, and then studying the correlation between the activation of these different regions over time. The result of this study is a correlation matrix, where each row and each column represents a specific brain region. We can then use this matrix as the input to our classification model. The database used to map attribute each voxel to one region is called an atlas. Many atlases exist, some are based on anatomical considerations, whereas others are based on statistical approaches. We decided to use <a href="https://www.sciencedirect.com/science/article/pii/S1053811920306121" class="linkedinlink">DiFuMo 64</a>, a very popular functional atlas with 64 brain regions.</p>
 
+<figure>
+<img src="images/20.png?raw=true" alt="neuroscience" class="imgarticle"/>
+<figcaption>A correlation matrix obtained after applying DiFuMo 64 to a subject.</figcaption>
+</figure>
+
+<p class="articletext">The final approaches consists of taking the correlation matrix that we just computed, and treating it like an undirected graph. This data structure is very relevant to the actual structure of the brain itself, which can be conceived as an ensemble of hubs (vertices) communication through impulses of varying strenght (edges). Furthermore, this allows us to use a bunch of tools derived from graph theory to analyse our data.</p>
   
 <figure>
 <img src="images/neuro2.png?raw=true" alt="neuroscience" class="imgarticle"/>
 <figcaption>Three different approaches to the problem.</figcaption>
 </figure>
 
+<p class="articletext">For the purpose of this project, we are going to use a very simple Support Vector Classifier (SVC) in order to make predictions on our data. First, we will feed it the raw correlation matrixes. Then, we will treshold the matrixes to only keep the most meaningful connections, and calculate, for each node, two metrics derived from graph theory : the clustering coefficient, which quantifies how close the node is to forming a complete graph with its neighbours, and the eiggenvector centrality, which quantifies how "important" a node is in a network, relatively to all other nodes.</p>
+  
 <figure>
 <img src="images/neuro3.png?raw=true" alt="neuroscience" class="imgarticle"/>
 <figcaption></figcaption>
