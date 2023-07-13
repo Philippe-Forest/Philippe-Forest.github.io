@@ -8,6 +8,7 @@
 <p class="articletext">Since the advances of functional Magnetic Resonance Imagery (fMRI), neuroscience have seen a surge of highly-advanced statistical techniques to try to uncover meaningful patterns in the functional data of the brain. The following project present a handful of these techniques applied to functional brain data in order to make predictions on the gender, as well as the musical affinity of 152 subjects.</p> 
 
 ---
+
 <h1 class="articletext">Data and Dataset</h1>
 
 <p class="articletext">First, we need to understand what is fMRI data and how it is structured. To summarize quickly, the data corresponds to measured variations of the oxygen level in the blood, which is correlated to the activity of specific brain regions. Therefore, the higher the fMRI signal is, the more active the corresponding region  is supposed to be. Inside of the scanner, one complete acquisition of the brain takes typically around 1s, so the temporal dimension has a low resolution. However, the space is discretized in small regions called "voxels" which are typically cubes of 1 mm, so the spatial dimension is fairly high resolution. Every voxel has an associated time serie that traces its evolution over time.</p>
@@ -31,6 +32,10 @@
 <figcaption>The Leipzig Mind-Brain-Body Dataset.</figcaption>
 </figure>
 
+---
+
+<h1 class="articletext">The three types of data</h1>
+
 <p class="articletext">We are going to explore and use three category of functional data representation, which build on each other. The first one is simply a time serie analysis performed on each voxel individually, as part of a Generalized Linear Model (GLM). All of the time series are supposed to be independant, and we are trying to express them as the product as the design matrix by a set of unknown parameters, plus an error term. The design matrix accounts for the study design (for instance, if subjects were asked to perform a task at a given moment during the scanning) as well as the potential noise sources. I will not go into detail into the way this type of analysis work as we are not going to use it for our study, as opposed to the other two.</p>
 
 <figure>
@@ -52,24 +57,36 @@
 <figcaption>Three different approaches to the problem.</figcaption>
 </figure>
 
-<p class="articletext">For the purpose of this project, we are going to use a very simple Support Vector Classifier (SVC) in order to make predictions on our data. First, we will feed it the raw correlation matrixes. Then, we will treshold the matrixes to only keep the most meaningful connections, and calculate, for each node, two metrics derived from graph theory : the clustering coefficient, which quantifies how close the node is to forming a complete graph with its neighbours, and the eiggenvector centrality, which quantifies how "important" a node is in a network, relatively to all other nodes.</p>
+<p class="articletext">For the purpose of this project, we are going to use a very simple Support Vector Classifier (SVC) in order to make predictions on our data. First, we will feed it the raw correlation matrixes. Then, we will treshold the matrixes to only keep the most meaningful connections, and calculate, for each node, two metrics derived from graph theory : the clustering coefficient, which quantifies how close the node is to forming a complete graph with its neighbours, and the eigenvector centrality (EC), which quantifies how "important" a node is in a network, relatively to all other nodes. A node that has a high eigenvector centrality is connected to a lot of other nodes who themselves have high EC</p>
   
 <figure>
 <img src="images/neuro3.png?raw=true" alt="neuroscience" class="imgarticle"/>
-<figcaption></figcaption>
+<figcaption>Summary of the methods used.</figcaption>
 </figure>
 
 <figure>
 <img src="images/neuro4.png?raw=true" alt="neuroscience" class="imgarticle"/>
-<figcaption>Our pipeline.</figcaption>
+<figcaption>Our final pipeline.</figcaption>
 </figure>
 
+---
+
+<h1 class="articletext">Results</h1>
+
+<p class="articletext">For each type of prediction, we performed a 5-fold cross validation, and computed the classification accuracy, as well as the f1 score. Here are the results for gender prediction, with all three methods :</p>
+  
 <figure>
 <img src="images/neuro5.png?raw=true" alt="neuroscience" class="imgarticle"/>
 <figcaption>Results regarding gender classification.</figcaption>
 </figure>
 
+<p class="articletext">As we can see, all methods performed with an accuracy over 50%. However, there are significant differences in their respective f1 scores. Indeed, it seems like the SVC based on clustering coefficients classified almost every subject in the male category, except 15 of them. It is probably a good time to remember that our dataset was initially comprised of 79 males for only 73 females... The clustering coefficient method presents a similar behaviour, with a lower accuracy but a higher f1 score.</p>
+  
 <figure>
 <img src="images/neuro6.png?raw=true" alt="neuroscience" class="imgarticle"/>
 <figcaption>Results regarding musical sophistication classification.</figcaption>
 </figure>
+
+---
+
+<h1 class="articletext">Conclusion</h1>
