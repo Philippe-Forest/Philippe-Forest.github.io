@@ -45,7 +45,7 @@
 <p class="articletext">For a more thorough inspection, we can calculate the correlation between each characteristic and the average performance of a song. We can also split the results by country and by week for maximum specificity. This gives us some nice insight that I chose to display in a circular fashion to account for the periodic nature of musical trends. This powerful way of vizualising gives us immediately the broad trend over the year for a specific country. For instance, in Italy, There seem to be a massive popularity "of high-valence" (aka happy) songs between the weeks 25 to 24, which corresponds roughly to summer. </p>
 
 <figure>
-<img src="images/wheel_Italy_sombre.png?raw=true" alt="wheel_Italy" class="imgarticle"/>
+<img src="images/wheel_Italy.png?raw=true" alt="wheel_Italy" class="imgarticle"/>
 <figcaption>Who would have thought that Italians enjoy happy songs in the summer?</figcaption>
 </figure>
 
@@ -80,10 +80,10 @@
 
 <figure>
 <img src="images/PCAcontinents.png?raw=true" alt="PCA country" class="imgarticle"/>
-<figcaption>.</figcaption>
+<figcaption>Every point is a country, colored by continent.</figcaption>
 </figure>
 
-<p class="articletext">Interestingly, it seems like Europe has overall uniform tastes, South America has very similar tastes, which can easily be explained by the massive popularity of Raeggeton in the whole continent. Asia seems to have the most diverse musical culture overall. </p>
+<p class="articletext">Interestingly, it seems like Europe has overall similar tastes, South America has very similar tastes, which can easily be explained by the massive popularity of Reggaeton in the whole continent. Asia seems to have the most diverse musical culture overall. </p>
 
 ---
 
