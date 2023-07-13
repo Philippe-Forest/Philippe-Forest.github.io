@@ -80,13 +80,16 @@
 <figcaption>Results regarding gender classification.</figcaption>
 </figure>
 
-<p class="articletext">As we can see, all methods performed with an accuracy over 50%. However, there are significant differences in their respective f1 scores. Indeed, it seems like the SVC based on clustering coefficients classified almost every subject in the male category, except 15 of them. It is probably a good time to remember that our dataset was initially comprised of 79 males for only 73 females... The clustering coefficient method presents a similar behaviour, with a lower accuracy but a higher f1 score.</p>
+<p class="articletext">As we can see, all methods performed with an accuracy over 50%. However, there are significant differences in their respective f1 scores. Indeed, it seems like the SVC based on eigenvector centrality classified almost every subject in the male category, except 15 of them, which were all correctly classified as female. It is probably a good time to remember that our dataset was initially comprised of 79 males for only 73 females... The clustering coefficient method presents a similar behaviour, with a lower accuracy but a higher f1 score. Overall, the classification on connectivity matrices takes the cake! Now let's look at the musical sophistication score. The Gold-MSI Scale can be broadly simplified to two scores, derived from applying PCA to the questionnaire. The "active score" quantifies the global subject engagement with music and activities related to music, whereas the "training score" quantifies the theoretical knowledge and 
+training of the subject in music. For the purpose of our binary classification, we will say that a subject is "trained" or "active" if and only if he is above average in the corresponding metric. The following image present the results of the classification prediction, performed directly on the connectivity matrixes, as well as the repartition of the scores in both categories.</p>
   
 <figure>
 <img src="images/neuro6.png?raw=true" alt="neuroscience" class="imgarticle"/>
 <figcaption>Results regarding musical sophistication classification.</figcaption>
 </figure>
 
+<p class="articletext">As it turns out, results are barely above average for the prediction of the "active score", which is still an interesting result given our rather brutal method of thresholding, which probably creates a lot of uncertainty around the mean of the gaussian-like distribution of the score. The prediction for the training score, on the other hand, gives us a very unusual result : the algorithm performs significantly below 50%, which means that it is probably identifying meaningful patterns in the data, but it is still classifying incorrectly! This is of course definitely not supposed to happen, and I wish I could give you a simple explanation,, but after checking the code dozens of times, I am still scratching my head over this one... One of my teacher suggested to try again with the tresholded connectivity matrices, but that did not solve the problem.
+  
 ---
 
 <h1 class="articletext">Conclusion</h1>
