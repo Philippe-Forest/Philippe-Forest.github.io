@@ -9,6 +9,8 @@
 
 ---
 
+<h1 class="articletext">Architecture of the model</h1>
+
 <p class="articletext">Our final submission will be ranked on a score based on two factors : the number of non-zero parameters and the number of operations necessary to make a full pass through the model. The first one will be highly influenced by the initial model size, or the amout of pruned parameters, whereas the second will moslty be influenced by factors such as quantization, or weight factorization. The first part of the project was obviously chosing our base model architecture. We initially tried with the smallest version of ResNet that we could make, with only 10 convolutional layers, but even this was far too big for our purpose. Instead, we opted for a <a href="https://arxiv.org/abs/1608.06993" class="linkedinlink">Densenet</a> architecture. Densenets were introduced in 2016, and exploit the parameter redundancy of classical CNN by connecting the output of  every convolutional layer with every other layer of the same simension, thus reducing the need for parameter redundancy. The following image illustrate this principle :</p>
 
 <figure>
