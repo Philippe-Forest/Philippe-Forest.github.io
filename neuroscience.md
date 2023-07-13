@@ -31,7 +31,15 @@
 <figcaption>The Leipzig Mind-Brain-Body Dataset.</figcaption>
 </figure>
 
-<p class="articletext">We are going to explore and use three category of functional data representation, which build on each other. The first one is simply a time serie analysis performed on each voxel individually. All of the </p>
+<p class="articletext">We are going to explore and use three category of functional data representation, which build on each other. The first one is simply a time serie analysis performed on each voxel individually, as part of a Generalized Linear Model (GLM). All of the time series are supposed to be independant, and we are trying to express them as the product as the design matrix by a set of unknown parameters, plus an error term. The design matrix accounts for the study design (for instance, if subjects were asked to perform a task at a given moment during the scanning) as well as the potential noise sources. I will not go into detail into the way this type of analysis work as we are not going to use it for our study, as opposed to the other two.</p>
+
+<figure>
+<img src="images/designmatrix.jpg?raw=true" alt="neuroscience" class="imgarticle"/>
+<figcaption>How a GLM works.</figcaption>
+</figure>
+
+<p class="articletext">The second approach makes use of our knowledge that the brain is organised in regions that communicate together. Therefore, this method consists in clustering voxels that appear to the same regions, and then studying the correlation
+
   
 <figure>
 <img src="images/neuro2.png?raw=true" alt="neuroscience" class="imgarticle"/>
