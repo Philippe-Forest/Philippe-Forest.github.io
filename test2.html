@@ -46,7 +46,9 @@
 
     <script type="text/javascript">
 
-      document.onmousemove = handleMouseMove;
+      
+      const pic = document.getElementById("pic");
+      pic.onmousemove = handleMouseMove;
       
       function handleMouseMove(event) {
   const height = window.innerHeight;
@@ -75,7 +77,7 @@
 
     <div class="demo">
   <div class="perspective-container">
-    <div class="card" id = "card"></div>
+    <div class="card" id = "pic"></div>
   </div>
       
 </div>
