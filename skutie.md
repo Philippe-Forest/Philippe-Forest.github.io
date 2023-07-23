@@ -19,7 +19,8 @@
   </div>
 </div>
 
-```javascript
+```
+
 function handleMouseMove(event) {
   const height = window.innerHeight;
   const width = window.innerWidth;
@@ -38,4 +39,5 @@ function setSheenPosition(xRatio, yRatio) {
   target.style.setProperty('--sheenX', `${xOffset}px`)
   target.style.setProperty('--sheenY', `${yOffset}px`)
 }
+
 ```
