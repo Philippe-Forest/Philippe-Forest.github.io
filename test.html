@@ -15,9 +15,9 @@
       }
 
       #stage {
-        margin: 100px auto;
-        width: 1200px;
-        height: 800px;
+        margin: 200px auto;
+        width: 900px;
+        height: 600px;
         /*
         
         Setting the perspective of the contents of the stage
@@ -29,8 +29,8 @@
 
       #rotate {
         margin: 0 auto;
-        width: 1200px;
-        height: 800px;
+        width: 900px;
+        height: 600px;
         /* Ensure that we're in 3D space */
         -webkit-transform-style: preserve-3d;
         /*
@@ -45,8 +45,8 @@
 
       .ring {
         margin: 0 auto;
-        height: 220px;
-        width: 1200px;
+        height: 165px;
+        width: 900px;
         -webkit-transform-style: preserve-3d;
         -webkit-animation-iteration-count: infinite;
         -webkit-animation-timing-function: linear;
@@ -62,9 +62,9 @@
 
       .poster {
         position: absolute;
-        left: 500px;
-        width: 200px;
-        height: 200px;
+        left: 375px;
+        width: 150px;
+        height: 150px;
         opacity: 0.7;
         color: rgba(0,0,0,0.9);
         -webkit-border-radius: 10px;
@@ -133,7 +133,7 @@
     <script type="text/javascript">
 
       const POSTERS_PER_ROW = 12;
-      const RING_RADIUS = 400;
+      const RING_RADIUS = 300;
 
       function setup_posters (row, value)
       {
@@ -155,8 +155,8 @@
             content.setAttribute('src', 'skutie_pics/'+i+'__.jpg'); }
       
           content.setAttribute('alt', 'na');
-          content.setAttribute('height', '200');
-          content.setAttribute('width', '200');
+          content.setAttribute('height', '150');
+          content.setAttribute('width', '150');
         
           
           // add the poster to the row
