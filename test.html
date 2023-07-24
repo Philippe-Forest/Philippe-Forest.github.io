@@ -3,7 +3,7 @@
   "http://www.w3.org/TR/html4/strict.dtd">
 <html>
   <head>
-    <title>Poster Circle</title>
+    <title>Bebzou Circle</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="initial-scale=0.60, minimum-scale=0.60, maximum-scale=0.60">
     <style type="text/css">
@@ -135,7 +135,7 @@
       const POSTERS_PER_ROW = 12;
       const RING_RADIUS = 200;
 
-      function setup_posters (row)
+      function setup_posters (row, value)
       {
         var posterAngle = 360 / POSTERS_PER_ROW;
         for (var i = 0; i < POSTERS_PER_ROW; i ++) {
@@ -147,7 +147,13 @@
           // setup the number to show inside the poster
           
           var content = poster.appendChild(document.createElement('img'));
-          content.setAttribute('src', 'skutie_pics/'+i+'.jpg');
+          if (value == 1) {
+          content.setAttribute('src', 'skutie_pics/'+i+'.jpg'); }
+          else if (value == 2)
+            content.setAttribute('src', 'skutie_pics/'+i+12'.jpg'); }
+          else if (value == 3)
+            content.setAttribute('src', 'skutie_pics/'+i+24'.jpg'); }
+      
           content.setAttribute('alt', 'na');
           content.setAttribute('height', '100');
           content.setAttribute('width', '100');
@@ -161,9 +167,9 @@
 
       function init ()
       {
-        setup_posters(document.getElementById('ring-1'));
-        setup_posters(document.getElementById('ring-2'));
-        setup_posters(document.getElementById('ring-3'));
+        setup_posters(document.getElementById('ring-1'), 1);
+        setup_posters(document.getElementById('ring-2'), 2);
+        setup_posters(document.getElementById('ring-3'), 3);
       }
 
       // call init once the document is fully loaded
