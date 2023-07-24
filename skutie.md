@@ -1,10 +1,13 @@
 ---
 ---
 
+<p class="titletext" >10 REASONS WHY I LOVE SKUTIE</p>
+
 ---
 
-<p class="titletext" >SHE IS THE CUTEST THING IN THE WORLD</p>
+<p class="titletext" >NUMBER 1 : SHE IS THE CUTEST THING IN THE WORLD</p>
 <p class="titletext" >(And that's a fact)</p>
+
 
 <div class="demo">
   <div class="perspective-container">
@@ -14,6 +17,10 @@
 
 ---
 
+<p class="titletext" >NUMBER 2 : SHE IS VERY SMART</p>
+<p class="titletext" >(And she will go far in life)</p>
+
+
 <div class="demo">
   <div class="perspective-container">
     <div class="card" id = "bebzou2"></div>
@@ -21,6 +28,10 @@
 </div>
 
 ---
+
+<p class="titletext" >NUMBER 3 : SHE IS VERY SMALL</p>
+<p class="titletext" >(And I can lift her)</p>
+
 
 <div class="demo">
   <div class="perspective-container">
