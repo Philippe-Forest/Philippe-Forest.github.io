@@ -252,7 +252,10 @@
     
  <script type="text/javascript">
 
+  const audio1 = new Audio('/skutie_pics/songs/1.mp3');
+ 
   const objectList = document.querySelectorAll('.card');
+   
   objectList.forEach((object) => {
   object.onmousemove = handleMouseMove; })
   
