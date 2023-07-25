@@ -39,6 +39,42 @@
   </div>
 </div>
 
+---
+
+<p class="titletext" >NUMBER 4 : ELLE EST BONNE SA MERE</p>
+<p class="titletext" >(Et elle twerk sur la piste)</p>
+
+
+<div class="demo">
+  <div class="perspective-container">
+    <div class="card" id = "bebzou3"></div>
+  </div>
+</div>
+
+---
+
+<p class="titletext" >NUMBER 5 : SHE IS VERY SMALL</p>
+<p class="titletext" >(And I can lift her)</p>
+
+
+<div class="demo">
+  <div class="perspective-container">
+    <div class="card" id = "bebzou3"></div>
+  </div>
+</div>
+
+---
+
+<p class="titletext" >NUMBER 6 : SHE IS VERY SMALL</p>
+<p class="titletext" >(And I can lift her)</p>
+
+
+<div class="demo">
+  <div class="perspective-container">
+    <div class="card" id = "bebzou3"></div>
+  </div>
+</div>
+
  <script type="text/javascript">
 
       
