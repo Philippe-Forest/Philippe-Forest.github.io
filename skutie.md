@@ -11,7 +11,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card card1" id = "bebzou"></div>
+    <div class="card card1"></div>
   </div>
 </div>
 
@@ -23,7 +23,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card" id = "bebzou2"></div>
+    <div class="card card2"></div>
   </div>
 </div>
 
@@ -35,7 +35,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card" id = "bebzou3"></div>
+    <div class="card card3"></div>
   </div>
 </div>
 
@@ -47,7 +47,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card" id = "bebzou3"></div>
+    <div class="card card4"></div>
   </div>
 </div>
 
@@ -59,7 +59,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card" id = "bebzou3"></div>
+    <div class="card card5"></div>
   </div>
 </div>
 
@@ -71,7 +71,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card" id = "bebzou3"></div>
+    <div class="card card6"></div>
   </div>
 </div>
 
@@ -83,7 +83,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card" id = "bebzou3"></div>
+    <div class="card card7"></div>
   </div>
 </div>
 
@@ -95,7 +95,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card" id = "bebzou3"></div>
+    <div class="card card8"></div>
   </div>
 </div>
 
@@ -107,7 +107,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card" id = "bebzou3"></div>
+    <div class="card card9"></div>
   </div>
 </div>
 
@@ -119,7 +119,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card" id = "bebzouu"></div>
+    <div class="card card10"></div>
   </div>
 </div>
 
@@ -128,9 +128,6 @@
       const objectList = document.querySelectorAll('.card');
       objectList.forEach((object) => {
       object.onmousemove = handleMouseMove; })
-   
-      const pictureElement = document.getElementById('bebzou');
-      pictureElement.onmousemove = handleMouseMove;
       
      
       function handleMouseMove(event) {
