@@ -82,7 +82,18 @@
 
 ---
 
-<p class="titletext" >NUMBER 8 : SHE IS ALWAYS THERE FOR ME</p>
+<p class="titletext" >NUMBER 8 : SHE NEEDS CONSTANT ATTENTION AND CUDDLES</p>
+<p class="skutietext" >(And she needs to get squized)</p>
+
+<div class="demo">
+  <div class="perspective-container">
+    <div class="card card9" id="image9"></div>
+  </div>
+</div>
+
+---
+
+<p class="titletext" >NUMBER 9 : SHE IS ALWAYS THERE FOR ME</p>
 <p class="skutietext" >(And she brightens my day when I'm sad)</p>
 
 <div class="demo">
@@ -91,16 +102,6 @@
   </div>
 </div>
 
----
-
-<p class="titletext" >NUMBER 9 : SHE NEEDS CONSTANT ATTENTION AND CUDDLES</p>
-<p class="skutietext" >(And she needs to get squized)</p>
-
-<div class="demo">
-  <div class="perspective-container">
-    <div class="card card9" id="image9"></div>
-  </div>
-</div>
 
 ---
 
