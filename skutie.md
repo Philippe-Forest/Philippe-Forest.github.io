@@ -278,8 +278,8 @@
 
       function setSheenPosition(xRatio, yRatio) {
   // This creates a "distance" up to 400px each direction to offset the sheen
-  const xOffset = 1 - (xRatio - 0.5) * 800;
-  const yOffset = 1 - (yRatio - 0.7) * 800;
+  const xOffset = 1 - (xRatio - 0.7) * 800;
+  const yOffset = 1 - (yRatio - 0.5) * 800;
   event.target.style.setProperty('--sheenX', `${xOffset}px`)
   event.target.style.setProperty('--sheenY', `${yOffset}px`)
 }
