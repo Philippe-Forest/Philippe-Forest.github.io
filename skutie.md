@@ -313,8 +313,7 @@
         content.setAttribute('src', 'skutie_pics/'+i+'__.jpg'); }
   
       content.setAttribute('alt', 'na');
-      content.setAttribute('height', '150');
-      content.setAttribute('width', '150');
+      
     
       
       // add the poster to the row
