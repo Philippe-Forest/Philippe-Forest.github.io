@@ -119,17 +119,20 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card" id = "bebzou3"></div>
+    <div class="card" id = "bebzouu"></div>
   </div>
 </div>
 
  <script type="text/javascript">
 
-      const objectList = document.querySelectorAll('.card');
+      const objectList = document.querySelectorAll('.c');
       objectList.forEach((object) => {
       object.onmousemove = handleMouseMove; })
+   
       const pictureElement = document.getElementById('bebzou');
       pictureElement.onmousemove = handleMouseMove;
+      const pictureElementt = document.getElementById('bebzouu');
+      pictureElementt.onmousemove = handleMouseMove;
      
       function handleMouseMove(event) {
   const height = window.innerHeight;
