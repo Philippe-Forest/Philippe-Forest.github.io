@@ -17,7 +17,7 @@
 ---
 
 <p class="titletext" >NUMBER 2 : SHE IS VERY SMART</p>
-<p class="titletext" >(And she will go far in life)</p>
+<p class="skutietext" >(And she will go far in life)</p>
 
 <div class="demo">
   <div class="perspective-container">
@@ -28,7 +28,7 @@
 ---
 
 <p class="titletext" >NUMBER 3 : SHE IS VERY SMALL</p>
-<p class="titletext" >(And I can lift her)</p>
+<p class="skutietext" >(And I can lift her)</p>
 
 <div class="demo">
   <div class="perspective-container">
@@ -39,7 +39,7 @@
 ---
 
 <p class="titletext" >NUMBER 4 : ELLE EST BONNE SA MERE</p>
-<p class="titletext" >(Et elle twerk sur la piste)</p>
+<p class="skutietext" >(Et elle twerk sur la piste)</p>
 
 <div class="demo">
   <div class="perspective-container">
@@ -50,7 +50,7 @@
 ---
 
 <p class="titletext" >NUMBER 5 : SHE MAKES ME WANT TO BE THE BEST VERSION OF MYSELF</p>
-<p class="titletext" >(Even though I'm already the top G)</p>
+<p class="skutietext" >(Even though I'm already the top G)</p>
 
 <div class="demo">
   <div class="perspective-container">
@@ -61,7 +61,7 @@
 ---
 
 <p class="titletext" >NUMBER 6 : SHE CRIES FOR ANYTHING</p>
-<p class="titletext" >(Even flowers and little llama toys)</p>
+<p class="skutietext" >(Even flowers and little llama toys)</p>
 
 <div class="demo">
   <div class="perspective-container">
@@ -72,7 +72,7 @@
 ---
 
 <p class="titletext" >NUMBER 7 : SHE MAKES BABY NOISES</p>
-<p class="titletext" >(And animal noises too)</p>
+<p class="skutietext" >(And animal noises too)</p>
 
 <div class="demo">
   <div class="perspective-container">
@@ -83,7 +83,7 @@
 ---
 
 <p class="titletext" >NUMBER 8 : SHE IS ALWAYS THERE FOR ME</p>
-<p class="titletext" >(And she brightens my day when I'm sad)</p>
+<p class="skutietext" >(And she brightens my day when I'm sad)</p>
 
 <div class="demo">
   <div class="perspective-container">
@@ -94,7 +94,7 @@
 ---
 
 <p class="titletext" >NUMBER 9 : SHE NEEDS CONSTANT ATTENTION AND CUDDLES</p>
-<p class="titletext" >(And she needs to get squized)</p>
+<p class="skutietext" >(And she needs to get squized)</p>
 
 <div class="demo">
   <div class="perspective-container">
@@ -105,7 +105,7 @@
 ---
 
 <p class="titletext" >NUMBER 10 : SHE IS VERY KIND AND A GOOD HUMAN BEING</p>
-<p class="titletext" >(And that's why everyone likes her)</p>
+<p class="skutietext" >(And that's why everyone likes her)</p>
 
 <div class="demo">
   <div class="perspective-container">
@@ -116,7 +116,7 @@
 ---
 
 <p class="titletext" >NUMBER 11 : SHE IS THE LOVE OF MY LIFE</p>
-<p class="titletext" >(And I will marry her one day)</p>
+<p class="skutietext" >(And I will marry her one day)</p>
 
 <div class="demo">
   <div class="perspective-container">
@@ -126,7 +126,7 @@
 
 ---
 
-<p class="titletext" >THANKS FOR THE MEMORIES !</p>
+<p class="titletextskutie" >THANKS FOR THE MEMORIES !</p>
 
 <div id="stage">
       <div id="rotate">
