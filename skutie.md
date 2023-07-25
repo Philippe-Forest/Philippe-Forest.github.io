@@ -399,6 +399,10 @@
 
   // call init once the document is fully loaded
   window.addEventListener('load', init, false);
+  window.onload = function() {
+  const audioo = new Audio('skutie_pics/songs/iseethelight.mp3');
+  audio.play();
+};
   
 
     </script>
