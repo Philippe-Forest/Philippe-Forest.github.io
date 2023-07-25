@@ -1,6 +1,6 @@
 ---
 ---
-<audio loop="loop" autoplay="autoplay">
+<audio controls autoplay>
      <source src="skutie_pics/songs/iseethelight.mp3' type="audio/mpeg" />
  </audio>
 <p class="titletextskutie" >✨❤️ 10 REASONS WHY I LOVE SKUTIE ❤️✨</p>
