@@ -176,13 +176,7 @@
         -webkit-animation-timing-function: linear;
       }
       
-      .ring > :nth-child(odd) {
-        background-color: #995C7F;
-      }
-
-      .ring > :nth-child(even) {
-        background-color: #835A99;
-      }
+  
 
       .poster {
         position: absolute;
@@ -313,6 +307,8 @@
         content.setAttribute('src', 'skutie_pics/'+i+'__.jpg'); }
   
       content.setAttribute('alt', 'na');
+      content.setAttribute('height', '150');
+      content.setAttribute('width', '150');
       
     
       
@@ -331,6 +327,6 @@
 
   // call init once the document is fully loaded
   window.addEventListener('load', init, false);
-
+  
 
     </script>
