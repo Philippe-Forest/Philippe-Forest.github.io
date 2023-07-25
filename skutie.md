@@ -1,8 +1,6 @@
 ---
 ---
-<audio controls autoplay>
-     <source src="skutie_pics/songs/iseethelight.mp3' type="audio/mpeg" />
- </audio>
+
 <p class="titletextskutie" >✨❤️ 10 REASONS WHY I LOVE SKUTIE ❤️✨</p>
 
 ---
@@ -255,10 +253,12 @@
  <script type="text/javascript">
 
   const audio1 = new Audio('/skutie_pics/songs/1.ogg');
+const audio11 = new Audio('/skutie_pics/songs/iseethelight.mp3');
   const image1 = document.getElementById('image1');
   image1.addEventListener('click', function() {
   // Play the song when the button is clicked
   audio1.play();
+  audio11.play();
 });
 
    const audio2 = new Audio('/skutie_pics/songs/2.ogg');
