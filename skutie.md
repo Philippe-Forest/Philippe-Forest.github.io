@@ -6,7 +6,7 @@
 ---
 
 <p class="titletext" >NUMBER 1 : SHE IS THE CUTEST THING IN THE WORLD</p>
-<p class="titletext" >(And that's a fact)</p>
+<p class="skutietext" >(And that's a fact)</p>
 
 <div class="demo">
   <div class="perspective-container">
