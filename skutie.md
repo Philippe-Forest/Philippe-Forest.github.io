@@ -117,7 +117,7 @@
 ---
 
 <p class="titletext" >NUMBER 11 : SHE IS THE LOVE OF MY LIFE</p>
-<p class="skutietext" >(And I will marry her one day)</p>
+<p class="skutietext" >(And I will marry her one day 💍)</p>
 
 <div class="demo">
   <div class="perspective-container">
