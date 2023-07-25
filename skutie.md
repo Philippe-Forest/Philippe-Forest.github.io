@@ -187,8 +187,9 @@
       .poster {
         position: absolute;
         left: 375px;
-        width: 150px;
-        height: 150px;
+        height: 150px
+        width: 100%;
+        object-fit: cover;
         opacity: 0.7;
         color: rgba(0,0,0,0.9);
         -webkit-border-radius: 10px;
