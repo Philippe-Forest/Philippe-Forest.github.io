@@ -261,12 +261,12 @@
     
  <script type="text/javascript">
 
-      const objectList = document.querySelectorAll('.card');
-      objectList.forEach((object) => {
-      object.onmousemove = handleMouseMove; })
-      
-     
-      function handleMouseMove(event) {
+  const objectList = document.querySelectorAll('.card');
+  objectList.forEach((object) => {
+  object.onmousemove = handleMouseMove; })
+  
+ 
+  function handleMouseMove(event) {
   const height = window.innerHeight;
   const width = window.innerWidth;
 
@@ -292,5 +292,49 @@
   event.target.style.setProperty('--sheenX', `${xOffset}px`)
   event.target.style.setProperty('--sheenY', `${yOffset}px`)
 }
+
+  const POSTERS_PER_ROW = 12;
+  const RING_RADIUS = 300;
+
+  function setup_posters (row, value)
+  {
+    var posterAngle = 360 / POSTERS_PER_ROW;
+    for (var i = 0; i < POSTERS_PER_ROW; i ++) {
+      var poster = document.createElement('div');
+      poster.className = 'poster';
+      // compute and assign the transform for this poster
+      var transform = 'rotateY(' + (posterAngle * i) + 'deg) translateZ(' + RING_RADIUS + 'px)';
+      poster.style.webkitTransform = transform;
+      // setup the number to show inside the poster
+      
+      var content = poster.appendChild(document.createElement('img'));
+      if (value == 1) {
+      content.setAttribute('src', 'skutie_pics/'+i+'.jpg'); }
+      else if (value == 2) {
+        content.setAttribute('src', 'skutie_pics/'+i+'_.jpg'); }
+      else if (value == 3) {
+        content.setAttribute('src', 'skutie_pics/'+i+'__.jpg'); }
+  
+      content.setAttribute('alt', 'na');
+      content.setAttribute('height', '150');
+      content.setAttribute('width', '150');
+    
+      
+      // add the poster to the row
+      row.appendChild(poster);
+    }
+
+  }
+
+  function init ()
+  {
+    setup_posters(document.getElementById('ring-1'), 1);
+    setup_posters(document.getElementById('ring-2'), 2);
+    setup_posters(document.getElementById('ring-3'), 3);
+  }
+
+  // call init once the document is fully loaded
+  window.addEventListener('load', init, false);
+
 
     </script>
