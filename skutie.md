@@ -21,7 +21,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card card2"></div>
+    <div class="card card2" id="image2"></div>
   </div>
 </div>
 
@@ -32,7 +32,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card card3"></div>
+    <div class="card card3" id="image3"></div>
   </div>
 </div>
 
@@ -43,7 +43,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card card4"></div>
+    <div class="card card4" id="image4"></div>
   </div>
 </div>
 
@@ -54,7 +54,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card card5"></div>
+    <div class="card card5" id="image5"></div>
   </div>
 </div>
 
@@ -65,7 +65,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card card6"></div>
+    <div class="card card6" id="image6"></div>
   </div>
 </div>
 
@@ -76,7 +76,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card card7"></div>
+    <div class="card card7" id="image7"></div>
   </div>
 </div>
 
@@ -87,7 +87,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card card8"></div>
+    <div class="card card8" id="image8"></div>
   </div>
 </div>
 
@@ -98,7 +98,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card card9"></div>
+    <div class="card card9" id="image9"></div>
   </div>
 </div>
 
@@ -109,7 +109,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card card10"></div>
+    <div class="card card10" id="image10"></div>
   </div>
 </div>
 
@@ -258,6 +258,70 @@
   // Play the song when the button is clicked
   audio1.play();
 });
+
+   const audio2 = new Audio('/skutie_pics/songs/2.ogg');
+  const image2 = document.getElementById('image2');
+  image2.addEventListener('click', function() {
+  // Play the song when the button is clicked
+  audio2.play();
+});
+
+   const audio3 = new Audio('/skutie_pics/songs/3.ogg');
+  const image3 = document.getElementById('image3');
+  image3.addEventListener('click', function() {
+  // Play the song when the button is clicked
+  audio3.play();
+});
+
+   const audio4 = new Audio('/skutie_pics/songs/4.ogg');
+  const image4 = document.getElementById('image4');
+  image4.addEventListener('click', function() {
+  // Play the song when the button is clicked
+  audio4.play();
+});
+
+   const audio5 = new Audio('/skutie_pics/songs/5.ogg');
+  const image5 = document.getElementById('image5');
+  image5.addEventListener('click', function() {
+  // Play the song when the button is clicked
+  audio5.play();
+});
+
+   const audio6 = new Audio('/skutie_pics/songs/6.ogg');
+  const image6 = document.getElementById('image6');
+  image6.addEventListener('click', function() {
+  // Play the song when the button is clicked
+  audio6.play();
+});
+
+   const audio7 = new Audio('/skutie_pics/songs/7.ogg');
+  const image7 = document.getElementById('image7');
+  image7.addEventListener('click', function() {
+  // Play the song when the button is clicked
+  audio7.play();
+});
+
+   const audio8 = new Audio('/skutie_pics/songs/8.ogg');
+  const image8 = document.getElementById('image8');
+  image8.addEventListener('click', function() {
+  // Play the song when the button is clicked
+  audio8.play();
+});
+
+   const audio9 = new Audio('/skutie_pics/songs/9.ogg');
+  const image9 = document.getElementById('image9');
+  image9.addEventListener('click', function() {
+  // Play the song when the button is clicked
+  audio9.play();
+});
+
+   const audio10 = new Audio('/skutie_pics/songs/10.ogg');
+  const image10 = document.getElementById('image10');
+  image10.addEventListener('click', function() {
+  // Play the song when the button is clicked
+  audio10.play();
+});
+
  
   const objectList = document.querySelectorAll('.card');
    
