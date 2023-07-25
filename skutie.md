@@ -203,7 +203,7 @@
       */
       #ring-1 {
         -webkit-animation-name: y-spin;
-        -webkit-animation-duration: 20s;
+        -webkit-animation-duration: 22s;
       }
 
       #ring-2 {
@@ -213,7 +213,7 @@
 
       #ring-3 {
         -webkit-animation-name: y-spin;
-        -webkit-animation-duration: 16s;
+        -webkit-animation-duration: 14s;
       }
 
       /*
