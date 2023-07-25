@@ -265,7 +265,7 @@
   console.log(width);
         
   // Creates angles of (-20, -20) (left, bottom) and (20, 20) (right, top)
-  const yAxisDegree = event.pageX / width * 60 - 30;
+  const yAxisDegree = event.pageX / width * 40 - 20;
   const xAxisDegree = event.offsetY / height * -1 * 20 + 10;
 
   console.log(event.pageX);
@@ -279,7 +279,7 @@
       function setSheenPosition(xRatio, yRatio) {
   // This creates a "distance" up to 400px each direction to offset the sheen
   const xOffset = 1 - (xRatio - 0.7) * 800;
-  const yOffset = 1 - (yRatio - 0.5) * 800;
+  const yOffset = 1 - (yRatio - 0.4) * 800;
   event.target.style.setProperty('--sheenX', `${xOffset}px`)
   event.target.style.setProperty('--sheenY', `${yOffset}px`)
 }
