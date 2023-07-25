@@ -253,7 +253,9 @@
  <script type="text/javascript">
 
   const audio1 = new Audio('/skutie_pics/songs/1.ogg');
-const audio11 = new Audio('/skutie_pics/songs/iseethelight.mp3');
+  const audio11 = new Audio('/skutie_pics/songs/iseethelight.mp3');
+   audio11.loop = true;
+   
   const image1 = document.getElementById('image1');
   image1.addEventListener('click', function() {
   // Play the song when the button is clicked
@@ -266,6 +268,7 @@ const audio11 = new Audio('/skutie_pics/songs/iseethelight.mp3');
   image2.addEventListener('click', function() {
   // Play the song when the button is clicked
   audio2.play();
+    audio11.play();
 });
 
    const audio3 = new Audio('/skutie_pics/songs/3.ogg');
@@ -273,6 +276,7 @@ const audio11 = new Audio('/skutie_pics/songs/iseethelight.mp3');
   image3.addEventListener('click', function() {
   // Play the song when the button is clicked
   audio3.play();
+    audio11.play();
 });
 
    const audio4 = new Audio('/skutie_pics/songs/4.ogg');
@@ -280,6 +284,7 @@ const audio11 = new Audio('/skutie_pics/songs/iseethelight.mp3');
   image4.addEventListener('click', function() {
   // Play the song when the button is clicked
   audio4.play();
+    audio11.play();
 });
 
    const audio5 = new Audio('/skutie_pics/songs/5.ogg');
@@ -287,6 +292,7 @@ const audio11 = new Audio('/skutie_pics/songs/iseethelight.mp3');
   image5.addEventListener('click', function() {
   // Play the song when the button is clicked
   audio5.play();
+    audio11.play();
 });
 
    const audio6 = new Audio('/skutie_pics/songs/6.ogg');
@@ -294,6 +300,7 @@ const audio11 = new Audio('/skutie_pics/songs/iseethelight.mp3');
   image6.addEventListener('click', function() {
   // Play the song when the button is clicked
   audio6.play();
+    audio11.play();
 });
 
    const audio7 = new Audio('/skutie_pics/songs/7.ogg');
@@ -301,6 +308,7 @@ const audio11 = new Audio('/skutie_pics/songs/iseethelight.mp3');
   image7.addEventListener('click', function() {
   // Play the song when the button is clicked
   audio7.play();
+    audio11.play();
 });
 
    const audio8 = new Audio('/skutie_pics/songs/8.ogg');
@@ -308,6 +316,7 @@ const audio11 = new Audio('/skutie_pics/songs/iseethelight.mp3');
   image8.addEventListener('click', function() {
   // Play the song when the button is clicked
   audio8.play();
+    audio11.play();
 });
 
    const audio9 = new Audio('/skutie_pics/songs/9.ogg');
@@ -315,6 +324,7 @@ const audio11 = new Audio('/skutie_pics/songs/iseethelight.mp3');
   image9.addEventListener('click', function() {
   // Play the song when the button is clicked
   audio9.play();
+    audio11.play();
 });
 
    const audio10 = new Audio('/skutie_pics/songs/10.ogg');
@@ -322,6 +332,7 @@ const audio11 = new Audio('/skutie_pics/songs/iseethelight.mp3');
   image10.addEventListener('click', function() {
   // Play the song when the button is clicked
   audio10.play();
+    audio11.play();
 });
 
  
