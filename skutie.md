@@ -139,6 +139,13 @@
 
 <p class="titletext" >THANKS FOR THE MEMORIES !</p>
 
+<div id="stage">
+      <div id="rotate">
+        <div id="ring-1" class="ring"></div>
+        <div id="ring-2" class="ring"></div>
+        <div id="ring-3" class="ring"></div>
+      </div>
+    </div>
 
 <style type="text/css">
 
