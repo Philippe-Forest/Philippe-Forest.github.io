@@ -401,7 +401,8 @@
   window.addEventListener('load', init, false);
   window.onload = function() {
   const audioo = new Audio('skutie_pics/songs/iseethelight.mp3');
-  audio.play();
+  audioo.loop = true;
+  audioo.play();
 };
   
 
