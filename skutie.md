@@ -53,8 +53,8 @@
 
 ---
 
-<p class="titletext" >NUMBER 5 : SHE IS VERY SMALL</p>
-<p class="titletext" >(And I can lift her)</p>
+<p class="titletext" >NUMBER 5 : SHE MAKES ME WANT TO BE THE BEST VERSION OF MYSELF</p>
+<p class="titletext" >(Even though I'm already the top G)</p>
 
 
 <div class="demo">
@@ -65,8 +65,56 @@
 
 ---
 
-<p class="titletext" >NUMBER 6 : SHE IS VERY SMALL</p>
-<p class="titletext" >(And I can lift her)</p>
+<p class="titletext" >NUMBER 6 : SHE CRIES FOR ANYTHING</p>
+<p class="titletext" >(Even flowers and little llama toys)</p>
+
+
+<div class="demo">
+  <div class="perspective-container">
+    <div class="card" id = "bebzou3"></div>
+  </div>
+</div>
+
+---
+
+<p class="titletext" >NUMBER 7 : SHE MAKES BABY NOISES</p>
+<p class="titletext" >(And animal noises too)</p>
+
+
+<div class="demo">
+  <div class="perspective-container">
+    <div class="card" id = "bebzou3"></div>
+  </div>
+</div>
+
+---
+
+<p class="titletext" >NUMBER 8 : SHE IS ALWAYS THERE FOR ME</p>
+<p class="titletext" >(And she brightens my day when I'm sad)</p>
+
+
+<div class="demo">
+  <div class="perspective-container">
+    <div class="card" id = "bebzou3"></div>
+  </div>
+</div>
+
+---
+
+<p class="titletext" >NUMBER 9 : SHE NEEDS CONSTANT ATTENTION AND CUDDLES</p>
+<p class="titletext" >(And she needs to get squized)</p>
+
+
+<div class="demo">
+  <div class="perspective-container">
+    <div class="card" id = "bebzou3"></div>
+  </div>
+</div>
+
+---
+
+<p class="titletext" >NUMBER 10 : SHE IS VERY KIND AND A GOOD HUMAN BEING</p>
+<p class="titletext" >(And that's why everyone likes her)</p>
 
 
 <div class="demo">
@@ -77,7 +125,9 @@
 
  <script type="text/javascript">
 
-      
+      const objectList = document.querySelectorAll('.card');
+      objectList.forEach((object) => {
+      object.onmousemove = handleMouseMove; })
       const pictureElement = document.getElementById('bebzou');
       pictureElement.onmousemove = handleMouseMove;
      
