@@ -144,8 +144,8 @@
   const yAxisDegree = event.pageX / width * 40 - 20;
   const xAxisDegree = event.pageY / height * -1 * 40 + 20;
 
-  console.log(xAxisDegree);
-  console.log(yAxisDegree);
+  console.log(event.pageX);
+  console.log(event.pageY);
         
   event.target.style.transform = `rotateY(${yAxisDegree}deg) rotateX(${xAxisDegree}deg)`;
   // Set the sheen position
