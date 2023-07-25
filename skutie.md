@@ -233,8 +233,12 @@
       */
       @-webkit-keyframes x-spin {
         0%    { -webkit-transform: rotateX(0deg); }
+        20%   { -webkit-transform: rotateX(27deg); }
         25%   { -webkit-transform: rotateX(30deg); }
+        30%   { -webkit-transform: rotateX(27deg); }
+        70%   { -webkit-transform: rotateX(-27deg); }
         75%   { -webkit-transform: rotateX(-30deg); }
+        80%   { -webkit-transform: rotateX(-27deg); }
         100%  { -webkit-transform: rotateX(0deg); }
       }
 
