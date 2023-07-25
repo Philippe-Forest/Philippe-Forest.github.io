@@ -141,8 +141,8 @@
   console.log(width);
         
   // Creates angles of (-20, -20) (left, bottom) and (20, 20) (right, top)
-  const yAxisDegree = event.pageX / width * 40 - 20;
-  const xAxisDegree = event.pageY / height * -1 * 40 + 20;
+  const yAxisDegree = event.offsetX / width * 40 - 20;
+  const xAxisDegree = event.offsetY / height * -1 * 40 + 20;
 
   console.log(event.pageX);
   console.log(event.pageY);
