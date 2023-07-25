@@ -11,7 +11,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card" id = "bebzou"></div>
+    <div class="card card1" id = "bebzou"></div>
   </div>
 </div>
 
