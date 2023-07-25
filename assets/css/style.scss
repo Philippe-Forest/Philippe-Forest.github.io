@@ -346,12 +346,13 @@ filter: gray;
 
 .skutietext {
   opacity: 1;
+  text-shadow: 0 0 9px rgba(255,255,255,.4), 0 0 5px rgba(255,255,255,.4);
+  text-align: center;
   color: white;
   font-family:'Raleway';
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   width: 35rem;
-  height: 1rem;
   
 }
 
