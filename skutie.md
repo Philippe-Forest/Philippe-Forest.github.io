@@ -1,7 +1,7 @@
 ---
 ---
 
-<p class="titletext" >✨❤️ 10 REASONS WHY I LOVE SKUTIE ❤️✨</p>
+<p class="titletextskutie" >✨❤️ 10 REASONS WHY I LOVE SKUTIE ❤️✨</p>
 
 ---
 
