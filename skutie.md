@@ -10,7 +10,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card card1"></div>
+    <div class="card card1" id="image1"></div>
   </div>
 </div>
 
@@ -252,7 +252,12 @@
     
  <script type="text/javascript">
 
-  const audio1 = new Audio('/skutie_pics/songs/1.mp3');
+  const audio1 = new Audio('/skutie_pics/songs/1.ogg');
+  const image1 = document.getElementById('image1');
+  playButton.addEventListener('click', function() {
+  // Play the song when the button is clicked
+  audio1.play();
+});
  
   const objectList = document.querySelectorAll('.card');
    
