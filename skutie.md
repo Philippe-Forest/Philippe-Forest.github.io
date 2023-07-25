@@ -185,7 +185,7 @@
         height: 150px
         width: 100%;
         object-fit: cover;
-        opacity: 0.7;
+        opacity: 0.85;
         color: rgba(0,0,0,0.9);
         -webkit-border-radius: 10px;
       }
