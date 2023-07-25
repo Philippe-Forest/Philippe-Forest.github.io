@@ -120,7 +120,7 @@
 
 <div class="demo">
   <div class="perspective-container">
-    <div class="card card11"></div>
+    <div class="card card11" id="image11"></div>
   </div>
 </div>
 
@@ -332,6 +332,14 @@
   image10.addEventListener('click', function() {
   // Play the song when the button is clicked
   audio10.play();
+    audio11.play();
+});
+
+   const audiobonus = new Audio('/skutie_pics/songs/happy.mp3');
+  const image11 = document.getElementById('image11');
+  image11.addEventListener('click', function() {
+  // Play the song when the button is clicked
+  audiobonus.play();
     audio11.play();
 });
 
