@@ -295,7 +295,7 @@
     audio11.play();
 });
 
-   const audio6 = new Audio('/skutie_pics/songs/6.ogg');
+   const audio6 = new Audio('/skutie_pics/songs/7.ogg');
   const image6 = document.getElementById('image6');
   image6.addEventListener('click', function() {
   // Play the song when the button is clicked
@@ -303,7 +303,7 @@
     audio11.play();
 });
 
-   const audio7 = new Audio('/skutie_pics/songs/7.ogg');
+   const audio7 = new Audio('/skutie_pics/songs/6.ogg');
   const image7 = document.getElementById('image7');
   image7.addEventListener('click', function() {
   // Play the song when the button is clicked
