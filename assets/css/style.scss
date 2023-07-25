@@ -541,8 +541,7 @@ transform : translate(0px, 50px);
 .card {
   
   background-size: cover;
-  width: 330px;
-  height: 600px;
+  
   box-shadow: 0 0 140px 10px rgba(0,0,0,.5);
   position: relative;
   overflow: hidden; /* Try removing this to see how the sheen works! */
