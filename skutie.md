@@ -137,7 +137,7 @@
 
 ---
 
-<p class="titletext" >THANKS FOR THE MEMORIES</p>
+<p class="titletext" >THANKS FOR THE MEMORIES !</p>
 
  <script type="text/javascript">
 
