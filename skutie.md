@@ -149,7 +149,7 @@
         
   event.target.style.transform = `rotateY(${yAxisDegree}deg) rotateX(${xAxisDegree}deg)`;
   // Set the sheen position
-  setSheenPosition(event.pageX / width, event.pageY / width);
+  setSheenPosition(event.pageX / width, event.offsetY / width);
 }
 
       function setSheenPosition(xRatio, yRatio) {
