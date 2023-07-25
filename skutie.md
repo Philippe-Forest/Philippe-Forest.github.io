@@ -254,7 +254,7 @@
 
   const audio1 = new Audio('/skutie_pics/songs/1.ogg');
   const image1 = document.getElementById('image1');
-  playButton.addEventListener('click', function() {
+  image1.addEventListener('click', function() {
   // Play the song when the button is clicked
   audio1.play();
 });
