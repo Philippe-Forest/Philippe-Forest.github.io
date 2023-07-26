@@ -450,7 +450,7 @@ $(function() {
 
   function animateLeft() {
         imgleft.css("left", -width).animate({
-            "left": screenWidth*
+            "left": screenWidth
         }, leftduration, animateLeft);
     }
 
