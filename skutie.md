@@ -444,13 +444,13 @@ $(function() {
 
     function animateTop() {
         imgtop.css("top", -height).animate({
-            "top": screenHeight*13
+            "top": screenHeight*16
         }, topduration, animateTop);
     }
 
   function animateLeft() {
         imgleft.css("left", -width).animate({
-            "left": screenWidth
+            "left": screenWidth*2
         }, leftduration, animateLeft);
     }
 
