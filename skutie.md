@@ -38,7 +38,7 @@
     <div class="card card3" id="image3"></div>
   </div>
 </div>
-
+<img class="flyleft" src="/background/lelephant.png" />
 ---
 
 <p class="titletext" >NUMBER 4 : ELLE EST BONNE SA MERE</p>
@@ -85,6 +85,7 @@
     <div class="card card7" id="image7"></div>
   </div>
 </div>
+<img class="flyleft" src="/background/manchot.png" />
 
 ---
 
@@ -109,6 +110,7 @@
     <div class="card card8" id="image8"></div>
   </div>
 </div>
+<img class="flyleft" src="/background/capybara.png" />
 
 
 ---
