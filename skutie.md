@@ -186,7 +186,7 @@
 
       .poster {
         position: absolute;
-        left: 375px;
+        left: 175px;
         height: 150px
         width: 100%;
         object-fit: cover;
