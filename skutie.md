@@ -435,8 +435,8 @@
 $(function() {
     var imgtop = $(".flytop"),
         imgleft = $(".flyleft"),
-        height = img.get(0).height,
-        width = img.get(0).width,
+        height = imgtop.get(0).height,
+        width = imgtop.get(0).width,
         screenWidth = $(window).width(),
         screenHeight = $(window).height(),
         topduration = 60000,
