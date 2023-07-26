@@ -428,17 +428,8 @@
 
   // call init once the document is fully loaded
   window.addEventListener('load', init, false);
-  window.onload = function() {
-  const audioo = new Audio('skutie_pics/songs/iseethelight.mp3');
-  audioo.loop = true;
-  audioo.play();
-};
   
-
-    </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
-
-  $(function() {
+$(function() {
     var img = $("#plane"),
         width = img.get(0).width,
         screenWidth = $(window).width(),
@@ -452,4 +443,8 @@
 
     animatePlane();
 });
+    </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+
+  
 </script>
