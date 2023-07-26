@@ -256,7 +256,7 @@
         100%  { -webkit-transform: rotateY(0deg); }
       }
 
-  .flytop { position: absolute; top: -1000px; width: 10% /* <- not relevant for the animation */ }
+  .flytop { position: absolute; top: -1000px; left: 1000px; width: 10% /* <- not relevant for the animation */ }
   .flyleft { position: absolute; left: -1000px; width: 10% /* <- not relevant for the animation */ }
     </style>
 
