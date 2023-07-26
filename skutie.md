@@ -145,7 +145,7 @@
 <style type="text/css">
 
       #stage {
-        margin: 200px auto;
+        margin: 100px auto;
         width: 900px;
         height: 600px;
         /*
@@ -186,7 +186,7 @@
 
       .poster {
         position: absolute;
-        left: 175px;
+        left: 375px;
         height: 150px
         width: 100%;
         object-fit: cover;
