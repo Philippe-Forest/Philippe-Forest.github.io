@@ -435,20 +435,15 @@
   window.addEventListener('load', init, false);
   
 $(function() {
-    var imgtop = $(".flytop"),
-        imgleft = $(".flyleft"),
-        height = imgtop.get(0).height,
-        width = imgtop.get(0).width,
+    var imgleft = $(".flyleft"),
+        height = imgleft.get(0).height,
+        width = imgleft.get(0).width,
         screenWidth = $(window).width(),
         screenHeight = $(window).height(),
         topduration = 60000,
         leftduration = 15000;
 
-    function animateTop() {
-        imgtop.css("top", -height).animate({
-            "top": screenHeight*15
-        }, topduration, animateTop);
-    }
+   
 
   function animateLeft() {
         imgleft.css("left", -width).animate({
@@ -456,7 +451,7 @@ $(function() {
         }, leftduration, animateLeft);
     }
 
-    animateTop();
+   
     animateLeft();
   
 });
