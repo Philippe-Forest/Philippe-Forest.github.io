@@ -15,7 +15,8 @@
 </div>
 
 ---
-<img class="keur" src="/background/keur.png" />
+<img class="flytop" src="/background/keur.png" />
+<img class="flyleft" src="/background/keur.png" />
 <p class="titletext" >NUMBER 2 : SHE IS VERY SMART</p>
 <p class="skutietext" >(And she will go far in life)</p>
 
@@ -29,7 +30,8 @@
 
 <p class="titletext" >NUMBER 3 : SHE IS VERY SMALL</p>
 <p class="skutietext" >(And I can lift her)</p>
-<img class="keur" src="/background/oiseau.png" />
+<img class="flytop" src="/background/oiseau.png" />
+<img class="flyleft" src="/background/oiseau.png" />
 <div class="demo">
   <div class="perspective-container">
     
@@ -254,7 +256,8 @@
         100%  { -webkit-transform: rotateY(0deg); }
       }
 
-  .keur { position: absolute; top: -1000px; width: 10% /* <- not relevant for the animation */ }
+  .flytop { position: absolute; top: -1000px; width: 10% /* <- not relevant for the animation */ }
+  .flyleft { position: absolute; left: -1000px; width: 10% /* <- not relevant for the animation */ }
     </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> </script>
@@ -430,18 +433,30 @@
   window.addEventListener('load', init, false);
   
 $(function() {
-    var img = $(".keur"),
+    var imgtop = $(".flytop"),
+        imgleft = $(".flyleft"),
         height = img.get(0).height,
-        screenWidth = $(window).height(),
-        duration = 10000;
+        width = img.get(0).width,
+        screenWidth = $(window).width(),
+        screenHeight = $(window).height(),
+        topduration = 60000,
+        leftduration = 10000;
 
-    function animatePlane() {
-        img.css("top", -height).animate({
-            "top": screenWidth*10
-        }, duration, animatePlane);
+    function animateTop() {
+        imgtop.css("top", -height).animate({
+            "top": screenHeight*13
+        }, topduration, animateTop);
     }
 
-    animatePlane();
+  function animateLeft() {
+        imgleft.css("left", -width).animate({
+            "left": screenWidth
+        }, leftduration, animateLeft);
+    }
+
+    animateTop();
+    animateLeft();
+  
 });
     </script>
 
