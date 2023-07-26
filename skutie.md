@@ -261,7 +261,7 @@
       }
 
   .flytop { position: absolute; top: -1000px; left: 900px; width: 10% /* <- not relevant for the animation */ }
-  .flyleft { position: absolute; left: -1000px; width: 10% /* <- not relevant for the animation */ }
+  .flyleft { position: absolute; left: -1000px; top: -2000px; width: 10% /* <- not relevant for the animation */ }
     </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> </script>
