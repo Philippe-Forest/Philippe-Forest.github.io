@@ -440,7 +440,7 @@ $(function() {
         screenWidth = $(window).width(),
         screenHeight = $(window).height(),
         topduration = 60000,
-        leftduration = 10000;
+        leftduration = 15000;
 
     function animateTop() {
         imgtop.css("top", -height).animate({
@@ -450,7 +450,7 @@ $(function() {
 
   function animateLeft() {
         imgleft.css("left", -width).animate({
-            "left": screenWidth*1.3
+            "left": screenWidth*
         }, leftduration, animateLeft);
     }
 
