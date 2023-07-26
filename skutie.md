@@ -260,8 +260,8 @@
         100%  { -webkit-transform: rotateY(0deg); }
       }
 
-  .flytop { position: absolute; top: -1000px; left: 900px; width: 10% /* <- not relevant for the animation */ }
-  .flyleft { position: absolute; left: -1000px; top: 100px; width: 10% /* <- not relevant for the animation */ }
+  .flytop { position: relative; top: -1000px; left: 900px; width: 10% /* <- not relevant for the animation */ }
+  .flyleft { position: relative; left: -1000px; top: 100px; width: 10% /* <- not relevant for the animation */ }
     </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> </script>
