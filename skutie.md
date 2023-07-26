@@ -15,7 +15,7 @@
 </div>
 
 ---
-
+<img id="plane" src="https://cdn.pixabay.com/photo/2018/09/13/10/18/aircraft-3674305_640.png" />
 <p class="titletext" >NUMBER 2 : SHE IS VERY SMART</p>
 <p class="skutietext" >(And she will go far in life)</p>
 
@@ -252,6 +252,9 @@
         50%   { -webkit-transform: rotateY(180deg); }
         100%  { -webkit-transform: rotateY(0deg); }
       }
+
+  #plane { position: absolute; left: -1000px; width: 50% /* <- not relevant for the animation */ }
+  
     </style>
 
     
@@ -433,3 +436,20 @@
   
 
     </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+
+  $(function() {
+    var img = $("#plane"),
+        width = img.get(0).width,
+        screenWidth = $(window).width(),
+        duration = 5000;
+
+    function animatePlane() {
+        img.css("left", -width).animate({
+            "left": screenWidth
+        }, duration, animatePlane);
+    }
+
+    animatePlane();
+});
+</script>
