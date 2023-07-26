@@ -14,6 +14,7 @@
   </div>
 </div>
 <img class="flyleft" src="/background/keur.png" />
+
 ---
 
 <p class="titletext" >NUMBER 2 : SHE IS VERY SMART</p>
@@ -25,6 +26,7 @@
   </div>
 </div>
 <img class="flyleft" src="/background/oiseau.png" />
+
 ---
 
 <p class="titletext" >NUMBER 3 : SHE IS VERY SMALL</p>
@@ -60,6 +62,7 @@
   </div>
 </div>
 <img class="flyleft" src="/background/lama.png" />
+
 ---
 
 <p class="titletext" >NUMBER 6 : SHE CRIES FOR ANYTHING</p>
