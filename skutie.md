@@ -431,13 +431,13 @@
   
 $(function() {
     var img = $(".keur"),
-        width = img.get(0).width,
-        screenWidth = $(window).width(),
-        duration = 8000;
+        height = img.get(0).height,
+        screenWidth = $(window).height(),
+        duration = 10000;
 
     function animatePlane() {
-        img.css("left", -width).animate({
-            "left": screenWidth
+        img.css("top", -height).animate({
+            "top": screenWidth
         }, duration, animatePlane);
     }
 
