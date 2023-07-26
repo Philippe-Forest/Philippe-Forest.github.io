@@ -420,6 +420,7 @@
       content.setAttribute('alt', 'na');
       content.setAttribute('height', '150');
       content.setAttribute('width', '150');
+      content.setAttribute('object-fit', 'cover');
       
     
       
