@@ -15,7 +15,7 @@
 </div>
 
 ---
-<img id="keur" src="/background/keur.png" />
+<img class="keur" src="/background/keur.png" />
 <p class="titletext" >NUMBER 2 : SHE IS VERY SMART</p>
 <p class="skutietext" >(And she will go far in life)</p>
 
@@ -32,6 +32,7 @@
 
 <div class="demo">
   <div class="perspective-container">
+    <img class="keur" src="/background/oiseau.png" />
     <div class="card card3" id="image3"></div>
   </div>
 </div>
@@ -253,7 +254,7 @@
         100%  { -webkit-transform: rotateY(0deg); }
       }
 
-  #keur { position: absolute; left: -1000px; width: 10% /* <- not relevant for the animation */ }
+  .keur { position: absolute; left: -1000px; width: 10% /* <- not relevant for the animation */ }
     </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> </script>
@@ -429,7 +430,7 @@
   window.addEventListener('load', init, false);
   
 $(function() {
-    var img = $("#keur"),
+    var img = $(".keur"),
         width = img.get(0).width,
         screenWidth = $(window).width(),
         duration = 8000;
