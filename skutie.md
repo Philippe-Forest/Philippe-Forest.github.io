@@ -30,7 +30,6 @@
 
 <p class="titletext" >NUMBER 3 : SHE IS VERY SMALL</p>
 <p class="skutietext" >(And I can lift her)</p>
-<img class="flytop" src="/background/oiseau.png" />
 <img class="flyleft" src="/background/oiseau.png" />
 <div class="demo">
   <div class="perspective-container">
@@ -49,6 +48,7 @@
     <div class="card card4" id="image4"></div>
   </div>
 </div>
+<img class="flyleft" src="/background/nuage.png" />
 
 ---
 
@@ -64,6 +64,7 @@
 ---
 
 <p class="titletext" >NUMBER 6 : SHE CRIES FOR ANYTHING</p>
+<img class="flyleft" src="/background/lama.png" />
 <p class="skutietext" >(Even flowers and little llama toys)</p>
 
 <div class="demo">
@@ -73,6 +74,8 @@
 </div>
 
 ---
+
+<img class="flyleft" src="/background/panda.png" />
 
 <p class="titletext" >NUMBER 7 : SHE MAKES BABY NOISES</p>
 <p class="skutietext" >(And animal noises too)</p>
@@ -96,6 +99,7 @@
 
 ---
 
+<img class="flyleft" src="/background/crabe.png" />
 <p class="titletext" >NUMBER 9 : SHE IS ALWAYS THERE FOR ME</p>
 <p class="skutietext" >(And she brightens my day when I'm sad)</p>
 
