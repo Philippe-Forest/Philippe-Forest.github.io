@@ -437,7 +437,7 @@ $(function() {
 
     function animatePlane() {
         img.css("top", -height).animate({
-            "top": screenWidth
+            "top": screenWidth*10
         }, duration, animatePlane);
     }
 
