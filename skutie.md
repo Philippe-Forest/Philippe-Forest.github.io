@@ -254,7 +254,6 @@
       }
 
   #keur { position: absolute; left: -1000px; width: 10% /* <- not relevant for the animation */ }
-  body { overflow: hidden }
     </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> </script>
