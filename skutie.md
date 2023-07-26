@@ -29,10 +29,10 @@
 
 <p class="titletext" >NUMBER 3 : SHE IS VERY SMALL</p>
 <p class="skutietext" >(And I can lift her)</p>
-
+<img class="keur" src="/background/oiseau.png" />
 <div class="demo">
   <div class="perspective-container">
-    <img class="keur" src="/background/oiseau.png" />
+    
     <div class="card card3" id="image3"></div>
   </div>
 </div>
