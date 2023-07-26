@@ -102,21 +102,7 @@
 
 ---
 
-
-<p class="titletext" >NUMBER 9 : SHE IS ALWAYS THERE FOR ME</p>
-<p class="skutietext" >(And she brightens my day when I'm sad)</p>
-
-<div class="demo">
-  <div class="perspective-container">
-    <div class="card card8" id="image8"></div>
-  </div>
-</div>
-<img class="flyleft" src="/background/capybara.png" />
-
-
----
-
-<p class="titletext" >NUMBER 10 : SHE IS VERY KIND AND A GOOD HUMAN BEING</p>
+<p class="titletext" >NUMBER 9 : SHE IS VERY KIND AND A GOOD HUMAN BEING</p>
 <p class="skutietext" >(And that's why everyone likes her)</p>
 
 <div class="demo">
@@ -124,6 +110,19 @@
     <div class="card card10" id="image10"></div>
   </div>
 </div>
+<img class="flyleft" src="/background/capybara.png" />
+
+---
+
+<p class="titletext" >NUMBER 10 : SHE IS ALWAYS THERE FOR ME</p>
+<p class="skutietext" >(And she brightens my day when I'm sad)</p>
+
+<div class="demo">
+  <div class="perspective-container">
+    <div class="card card8" id="image8"></div>
+  </div>
+</div>
+
 
 ---
 
