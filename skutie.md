@@ -257,7 +257,7 @@
   
     </style>
 
-    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> </script>
  <script type="text/javascript">
 
   const audio1 = new Audio('/skutie_pics/songs/1.ogg');
@@ -444,7 +444,4 @@ $(function() {
     animatePlane();
 });
     </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
 
-  
-</script>
