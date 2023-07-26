@@ -145,7 +145,7 @@
 <style type="text/css">
 
       #stage {
-        margin: 100px auto;
+        margin: 200px auto;
         width: 900px;
         height: 600px;
         /*
